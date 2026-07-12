@@ -1,0 +1,1400 @@
+[
+  {
+    "control_id": "5.1",
+    "title": "Políticas para la seguridad de la información",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Garantizar la idoneidad, adecuación y eficacia continuas de la dirección de gestión y el apoyo a la seguridad de la información de acuerdo con los requisitos comerciales, legales, estatutarios, reglamentarios y contractuales.",
+    "content": "La política de seguridad de la información y las políticas específicas del tema deben ser definidas, aprobadas por la gerencia, publicadas, comunicadas y reconocidas por el personal relevante y las partes interesadas relevantes, y revisadas a intervalos planificados y si ocurren cambios significativos.",
+    "implementation": "La alta dirección debe definir una política de seguridad de la información que establezca el enfoque de la organización para gestionar su seguridad. Debe estar respaldada por políticas específicas del tema como control de acceso, seguridad física y ambiental, gestión de activos, transferencia de información, criptografía, clasificación de información y gestión de vulnerabilidades.",
+    "examples": [
+      "Política de control de acceso",
+      "Política de seguridad física y ambiental",
+      "Política de criptografía y gestión de claves",
+      "Política de clasificación y manejo de la información"
+    ],
+    "keywords": ["política", "seguridad", "información", "dirección", "gestión", "documentación", "aprobación"]
+  },
+  {
+    "control_id": "5.2",
+    "title": "Roles y responsabilidades en seguridad de la información",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Establecer una estructura definida, aprobada y entendida para la implementación, operación y gestión de la seguridad de la información dentro de la organización.",
+    "content": "Los roles y responsabilidades de seguridad de la información deben definirse y asignarse de acuerdo con las necesidades de la organización.",
+    "implementation": "La asignación de roles y responsabilidades debe incluir: protección de la información y otros activos, realización de procesos específicos de seguridad, gestión de riesgos y aceptación de riesgos residuales, y responsabilidades de todo el personal que utiliza la información de la organización.",
+    "examples": [
+      "CISO (Chief Information Security Officer)",
+      "Propietario de activos de información",
+      "Oficial de seguridad de TI",
+      "Responsable de cumplimiento de seguridad"
+    ],
+    "keywords": ["roles", "responsabilidades", "CISO", "propietario", "activos", "asignación", "estructura"]
+  },
+  {
+    "control_id": "5.3",
+    "title": "Segregación de funciones",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Reducir el riesgo de fraude, error y elusión de los controles de seguridad de la información.",
+    "content": "Deben segregarse los deberes conflictivos y las áreas conflictivas de responsabilidad.",
+    "implementation": "La organización debe determinar qué deberes y áreas de responsabilidad deben segregarse, tales como: iniciar, aprobar y ejecutar un cambio; solicitar, aprobar e implementar derechos de acceso; diseñar, implementar y revisar el código; y auditar los controles de seguridad.",
+    "examples": [
+      "Separar el rol de desarrollador y administrador de producción",
+      "Separar solicitud y aprobación de accesos",
+      "Separar diseño de auditoría y aseguramiento de controles"
+    ],
+    "keywords": ["segregación", "funciones", "deberes", "responsabilidades", "conflicto", "fraude", "control de acceso basado en roles"]
+  },
+  {
+    "control_id": "5.4",
+    "title": "Responsabilidades de la dirección",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Asegurar que la gerencia comprenda su papel en la seguridad de la información y emprender acciones para garantizar que todo el personal conozca y cumpla sus responsabilidades.",
+    "content": "La gerencia debe exigir a todo el personal que aplique la seguridad de la información de acuerdo con la política de seguridad de la información establecida, las políticas y los procedimientos específicos del tema de la organización.",
+    "implementation": "La gerencia debe asegurar que el personal: esté informado sobre sus roles antes de acceder a la información, cuente con lineamientos de expectativas de seguridad, tenga mandato de cumplir políticas, logre niveles apropiados de conciencia, y cuente con recursos para implementar controles de seguridad.",
+    "examples": [
+      "Canal confidencial para reportar violaciones de políticas de seguridad",
+      "Programa de formación continua en seguridad",
+      "Asignación de recursos para controles de seguridad"
+    ],
+    "keywords": ["dirección", "gerencia", "responsabilidades", "cumplimiento", "conciencia", "seguridad de la información"]
+  },
+  {
+    "control_id": "5.5",
+    "title": "Contacto con las autoridades",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Garantizar que se produzca un flujo de información adecuado con respecto a la seguridad de la información entre la organización y las autoridades legales, reguladoras y de supervisión pertinentes.",
+    "content": "La organización debe establecer y mantener contacto con las autoridades pertinentes.",
+    "implementation": "La organización debe especificar cuándo y por quién se debe contactar a las autoridades (fuerzas del orden, organismos reguladores, autoridades de supervisión) y cómo informar oportunamente los incidentes de seguridad de la información identificados.",
+    "examples": [
+      "Contacto con fuerzas del orden para incidentes graves",
+      "Notificación a reguladores de brechas de datos",
+      "Contacto con autoridades de protección de datos"
+    ],
+    "keywords": ["autoridades", "reguladores", "contacto", "incidentes", "notificación", "cumplimiento legal"]
+  },
+  {
+    "control_id": "5.6",
+    "title": "Contacto con grupos de interés especial",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Garantizar que se produzca un flujo adecuado de información con respecto a la seguridad de la información.",
+    "content": "La organización debe establecer y mantener contacto con grupos de interés especial u otros foros especializados en seguridad y asociaciones profesionales.",
+    "implementation": "La membresía en grupos o foros de interés especial debe considerarse para: mejorar el conocimiento de mejores prácticas, mantenerse actualizado sobre información de seguridad relevante, recibir alertas sobre ataques y vulnerabilidades, obtener acceso a asesoramiento especializado y compartir información sobre nuevas tecnologías y amenazas.",
+    "examples": [
+      "Participación en ISAC (Information Sharing and Analysis Centers)",
+      "Membresía en foros de ciberseguridad sectoriales",
+      "Suscripción a boletines de inteligencia de amenazas"
+    ],
+    "keywords": ["grupos de interés", "foros", "asociaciones", "intercambio de información", "amenazas", "vulnerabilidades"]
+  },
+  {
+    "control_id": "5.7",
+    "title": "Inteligencia de amenazas",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Proporcionar conciencia del entorno de amenazas de la organización para que se puedan tomar las medidas de mitigación adecuadas.",
+    "content": "La información relacionada con las amenazas a la seguridad de la información debe recopilarse y analizarse para generar información sobre amenazas.",
+    "implementation": "La inteligencia de amenazas debe cubrir tres capas: estratégica (panorama de amenazas de alto nivel), táctica (metodologías y herramientas del atacante) y operativa (detalles sobre ataques específicos). Debe ser relevante, perspicaz, contextual y procesable.",
+    "examples": [
+      "Suscripción a feeds de inteligencia de amenazas",
+      "Análisis de indicadores de compromiso (IoC)",
+      "Participación en grupos de intercambio de inteligencia de amenazas (ISAC)"
+    ],
+    "keywords": ["inteligencia de amenazas", "threat intelligence", "IoC", "vulnerabilidades", "ataques", "mitigación", "análisis"]
+  },
+  {
+    "control_id": "5.8",
+    "title": "Seguridad de la información en la gestión de proyectos",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Garantizar que los riesgos de seguridad de la información relacionados con proyectos y entregables se aborden de manera efectiva en la gestión de proyectos a lo largo del ciclo de vida del proyecto.",
+    "content": "La seguridad de la información debe integrarse en la gestión de proyectos.",
+    "implementation": "La gestión de proyectos debe exigir que: los riesgos de seguridad se evalúen periódicamente, los requisitos de seguridad se aborden en etapas tempranas, los riesgos asociados con la ejecución del proyecto se consideren, y se revise el progreso en el tratamiento de riesgos.",
+    "examples": [
+      "Evaluación de riesgos de seguridad en la planificación del proyecto",
+      "Requisitos de seguridad incluidos en el diseño del sistema",
+      "Revisión de seguridad en hitos del proyecto"
+    ],
+    "keywords": ["proyectos", "gestión de proyectos", "riesgos", "ciclo de vida", "requisitos de seguridad", "integración"]
+  },
+  {
+    "control_id": "5.9",
+    "title": "Inventario de información y otros activos asociados",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Identificar la información de la organización y otros activos asociados con el fin de preservar su seguridad de la información y asignar la propiedad adecuada.",
+    "content": "Se debe desarrollar y mantener un inventario de información y otros activos asociados, incluidos los propietarios.",
+    "implementation": "La organización debe identificar su información y otros activos asociados y determinar su importancia en términos de seguridad. El inventario debe ser preciso, actualizado, consistente y alineado con otros inventarios. Cada activo debe tener un propietario asignado.",
+    "examples": [
+      "Inventario de activos de hardware y software",
+      "Registro de bases de datos y repositorios de información",
+      "Catálogo de servicios en la nube utilizados"
+    ],
+    "keywords": ["inventario", "activos", "propietario", "información", "clasificación", "gestión de activos"]
+  },
+  {
+    "control_id": "5.10",
+    "title": "Uso aceptable de la información y otros activos asociados",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Garantizar que la información y otros activos asociados se protejan, utilicen y manejen adecuadamente.",
+    "content": "Deben identificarse, documentarse e implementarse reglas para el uso aceptable y procedimientos para el manejo de la información y otros activos asociados.",
+    "implementation": "La organización debe establecer una política específica sobre el uso aceptable que defina: comportamientos esperados e inaceptables, uso permitido y prohibido de información y activos, y las actividades de seguimiento. Los procedimientos deben cubrir el ciclo de vida completo de la información.",
+    "examples": [
+      "Política de uso aceptable de equipos corporativos",
+      "Reglas para el uso de dispositivos personales (BYOD)",
+      "Procedimientos para el manejo de información confidencial"
+    ],
+    "keywords": ["uso aceptable", "información", "activos", "política", "comportamiento", "procedimientos", "ciclo de vida"]
+  },
+  {
+    "control_id": "5.11",
+    "title": "Devolución de bienes",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Proteger los activos de la organización como parte del proceso de cambio o terminación de empleo, contrato o acuerdo.",
+    "content": "El personal y otras partes interesadas, según corresponda, deben devolver todos los activos de la organización que estén en su poder al cambiar o terminar su empleo, contrato o acuerdo.",
+    "implementation": "El proceso de terminación debe incluir la devolución de: dispositivos de punto final de usuario, dispositivos portátiles de almacenamiento, equipo especializado, hardware de autenticación (llaves, tokens, tarjetas inteligentes) y copias físicas de la información.",
+    "examples": [
+      "Lista de verificación de devolución de activos al término del contrato",
+      "Procedimiento de eliminación segura de datos en dispositivos devueltos",
+      "Registro de activos entregados al empleado al inicio"
+    ],
+    "keywords": ["devolución", "activos", "terminación", "empleo", "contrato", "equipos", "dispositivos"]
+  },
+  {
+    "control_id": "5.12",
+    "title": "Clasificación de la información",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Asegurar la identificación y comprensión de las necesidades de protección de la información de acuerdo con su importancia para la organización.",
+    "content": "La información debe clasificarse de acuerdo con las necesidades de seguridad de la información de la organización en función de la confidencialidad, la integridad, la disponibilidad y los requisitos pertinentes de las partes interesadas.",
+    "implementation": "La organización debe establecer un esquema de clasificación con niveles claramente definidos. Los propietarios de la información son responsables de su clasificación. El esquema debe estar alineado con la política de control de acceso y ser consistente en toda la organización.",
+    "examples": [
+      "Niveles: Público, Interno, Confidencial, Altamente Confidencial",
+      "Criterios de clasificación basados en impacto de la divulgación",
+      "Procedimiento de reclasificación cuando cambia el valor de la información"
+    ],
+    "keywords": ["clasificación", "información", "confidencialidad", "integridad", "disponibilidad", "niveles", "propietario"]
+  },
+  {
+    "control_id": "5.13",
+    "title": "Etiquetado de la información",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Facilitar la comunicación de la clasificación de la información y apoyar la automatización del procesamiento y la gestión de la información.",
+    "content": "Se debe desarrollar e implementar un conjunto apropiado de procedimientos para el etiquetado de la información de acuerdo con el esquema de clasificación de la información adoptado por la organización.",
+    "implementation": "Los procedimientos de etiquetado deben cubrir todos los formatos. Las técnicas incluyen: etiquetas físicas, encabezados y pies de página, metadatos, marcas de agua y sellos. La información digital debe utilizar metadatos para identificación y gestión.",
+    "examples": [
+      "Encabezados y pies de página con nivel de clasificación en documentos",
+      "Metadatos de clasificación en archivos electrónicos",
+      "Marcas de agua en documentos confidenciales"
+    ],
+    "keywords": ["etiquetado", "clasificación", "metadatos", "marcas de agua", "procedimientos", "información", "automatización"]
+  },
+  {
+    "control_id": "5.14",
+    "title": "Transferencia de información",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Mantener la seguridad de la información transferida dentro de una organización y con cualquier parte externa interesada.",
+    "content": "Deben existir reglas, procedimientos o acuerdos de transferencia de información para todos los tipos de instalaciones de transferencia dentro de la organización y entre la organización y otras partes.",
+    "implementation": "Las reglas deben cubrir transferencias electrónicas, de medios físicos y verbales. Deben incluir controles contra intercepción y acceso no autorizado, garantía de trazabilidad y no repudio, responsabilidades ante incidentes y uso de etiquetado acordado para información sensible.",
+    "examples": [
+      "Cifrado de correos electrónicos con información confidencial",
+      "Procedimientos para el envío seguro de medios físicos",
+      "Acuerdos de confidencialidad con terceros para intercambio de información"
+    ],
+    "keywords": ["transferencia", "información", "cifrado", "tránsito", "electrónica", "física", "verbal", "acuerdos"]
+  },
+  {
+    "control_id": "5.15",
+    "title": "Control de acceso",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Garantizar el acceso autorizado y evitar el acceso no autorizado a la información y otros activos asociados.",
+    "content": "Las reglas para controlar el acceso físico y lógico a la información y otros activos asociados deben establecerse e implementarse en función de los requisitos comerciales y de seguridad de la información.",
+    "implementation": "Las reglas de control de acceso deben implementarse considerando: qué entidades requieren qué tipo de acceso, seguridad de aplicaciones, acceso físico, diseminación y autorización de información, restricciones de acceso privilegiado, y segregación de funciones.",
+    "examples": [
+      "Control de acceso basado en roles (RBAC)",
+      "Control de acceso discrecional (DAC)",
+      "Control de acceso obligatorio (MAC)",
+      "Control de acceso basado en atributos (ABAC)"
+    ],
+    "keywords": ["control de acceso", "autorización", "autenticación", "roles", "privilegios", "necesidad de saber", "RBAC"]
+  },
+  {
+    "control_id": "5.16",
+    "title": "Gestión de identidad",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Permitir la identificación única de personas y sistemas que acceden a la información de la organización y otros activos asociados y permitir la asignación adecuada de derechos de acceso.",
+    "content": "Debe gestionarse el ciclo de vida completo de las identidades.",
+    "implementation": "Los procesos de gestión de identidad deben garantizar que: cada identidad se vincule a una sola persona, las identidades compartidas se documenten y aprueben, las identidades no humanas tengan supervisión independiente, las identidades se inhabiliten oportunamente cuando ya no son necesarias, y se eviten identidades duplicadas.",
+    "examples": [
+      "Sistema de gestión de identidades (IAM)",
+      "Proceso de aprovisionamiento y desaprovisionamiento de cuentas",
+      "Federación de identidades con proveedores externos"
+    ],
+    "keywords": ["identidad", "gestión de identidades", "IAM", "ciclo de vida", "aprovisionamiento", "autenticación", "acceso"]
+  },
+  {
+    "control_id": "5.17",
+    "title": "Información de autenticación",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Garantizar la autenticación adecuada de la entidad y evitar fallas en los procesos de autenticación.",
+    "content": "La asignación y gestión de la información de autenticación debe controlarse mediante un proceso de gestión, incluido el asesoramiento al personal sobre el manejo adecuado de la información de autenticación.",
+    "implementation": "El proceso debe garantizar que: las contraseñas temporales no se puedan adivinar, se verifique la identidad del usuario antes de proporcionar credenciales, la información de autenticación se transmita de forma segura, y los sistemas de gestión de contraseñas apliquen contraseñas seguras y eviten la reutilización.",
+    "examples": [
+      "Gestor de contraseñas corporativo",
+      "Proceso de restablecimiento seguro de contraseñas",
+      "Política de contraseñas con requisitos mínimos de complejidad"
+    ],
+    "keywords": ["autenticación", "contraseñas", "información de autenticación", "PIN", "credenciales", "gestión de contraseñas", "seguridad"]
+  },
+  {
+    "control_id": "5.18",
+    "title": "Derechos de acceso",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Garantizar que el acceso a la información y otros activos asociados se defina y autorice de acuerdo con los requisitos comerciales.",
+    "content": "Los derechos de acceso a la información y otros activos asociados deben proporcionarse, revisarse, modificarse y eliminarse de acuerdo con la política y las reglas de control de acceso específicas del tema de la organización.",
+    "implementation": "El proceso de aprovisionamiento debe incluir: autorización del propietario del activo, consideración de requisitos comerciales y segregación de funciones, garantía de eliminación oportuna de derechos cuando ya no se necesiten, y revisión periódica de derechos de acceso.",
+    "examples": [
+      "Proceso formal de solicitud y aprobación de accesos",
+      "Revisión periódica de derechos de acceso",
+      "Revocación automática de accesos al cambio de rol o salida"
+    ],
+    "keywords": ["derechos de acceso", "aprovisionamiento", "revisión", "revocación", "autorización", "control de acceso", "principio de mínimo privilegio"]
+  },
+  {
+    "control_id": "5.19",
+    "title": "Seguridad de la información en las relaciones con los proveedores",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Mantener un nivel acordado de seguridad de la información en las relaciones con los proveedores.",
+    "content": "Deben definirse e implementarse procesos y procedimientos para gestionar los riesgos de seguridad de la información asociados con el uso de los productos o servicios del proveedor.",
+    "implementation": "Los procesos deben incluir: identificación y documentación de tipos de proveedores, evaluación y selección de proveedores según sensibilidad, definición de información y activos a los que los proveedores pueden acceder, y monitoreo del cumplimiento de requisitos de seguridad.",
+    "examples": [
+      "Cuestionario de seguridad para evaluación de proveedores",
+      "Auditorías de seguridad a proveedores críticos",
+      "Proceso de terminación segura de relación con proveedores"
+    ],
+    "keywords": ["proveedores", "terceros", "cadena de suministro", "relaciones", "riesgos", "evaluación", "cumplimiento"]
+  },
+  {
+    "control_id": "5.20",
+    "title": "Abordar la seguridad de la información en los acuerdos con proveedores",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Mantener un nivel acordado de seguridad de la información en las relaciones con los proveedores.",
+    "content": "Los requisitos de seguridad de la información pertinentes deben establecerse y acordarse con cada proveedor en función del tipo de relación con el proveedor.",
+    "implementation": "Los acuerdos con proveedores deben incluir: descripción de la información proporcionada, clasificación, requisitos legales, obligaciones de implementar controles, reglas de uso aceptable, requisitos de gestión de incidentes, derecho a auditoría, y provisiones para la terminación del acuerdo.",
+    "examples": [
+      "Cláusulas de seguridad de la información en contratos de servicios",
+      "Acuerdos de nivel de servicio con requisitos de seguridad",
+      "Requisitos de notificación de incidentes en contratos"
+    ],
+    "keywords": ["acuerdos", "proveedores", "contratos", "cláusulas de seguridad", "SLA", "notificación de incidentes", "auditoría"]
+  },
+  {
+    "control_id": "5.21",
+    "title": "Gestión de la seguridad de la información en la cadena de suministro de las TIC",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Mantener un nivel acordado de seguridad de la información en las relaciones con los proveedores.",
+    "content": "Deben definirse e implementarse procesos y procedimientos para gestionar los riesgos de seguridad de la información asociados con la cadena de suministro de productos y servicios de TIC.",
+    "implementation": "Se deben definir requisitos de seguridad para adquisición de productos TIC, exigir que los proveedores propaguen requisitos de seguridad en la cadena de suministro, monitorear que los productos entregados cumplan los requisitos, e identificar componentes críticos para mayor atención.",
+    "examples": [
+      "Requisitos de seguridad para software de terceros utilizado en productos",
+      "Verificación de autenticidad de componentes de hardware",
+      "Proceso de certificación de componentes TIC críticos"
+    ],
+    "keywords": ["cadena de suministro", "TIC", "componentes", "subcontratistas", "software de terceros", "hardware", "autenticidad"]
+  },
+  {
+    "control_id": "5.22",
+    "title": "Seguimiento, revisión y gestión de cambios de servicios de proveedores",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Mantener un nivel acordado de seguridad de la información y prestación de servicios en línea con los acuerdos con los proveedores.",
+    "content": "La organización debe monitorear, revisar, evaluar y gestionar periódicamente los cambios en las prácticas de seguridad de la información del proveedor y la prestación de servicios.",
+    "implementation": "El proceso debe incluir: monitoreo de niveles de desempeño, control de cambios realizados por proveedores, revisión de informes de servicio, realización de auditorías, gestión de incidentes de seguridad identificados en proveedores, e identificación y gestión de vulnerabilidades.",
+    "examples": [
+      "Revisiones periódicas de desempeño con proveedores críticos",
+      "Auditorías a subproveedores",
+      "Comité de gestión de cambios con proveedores estratégicos"
+    ],
+    "keywords": ["monitoreo", "revisión", "proveedores", "cambios", "desempeño", "auditorías", "incidentes"]
+  },
+  {
+    "control_id": "5.23",
+    "title": "Seguridad de la información para el uso de servicios en la nube",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Especificar y administrar la seguridad de la información para el uso de servicios en la nube.",
+    "content": "Los procesos de adquisición, uso, gestión y salida de los servicios en la nube deben establecerse de acuerdo con los requisitos de seguridad de la información de la organización.",
+    "implementation": "La organización debe definir: requisitos de seguridad para servicios en la nube, criterios de selección del servicio, roles y responsabilidades, controles gestionados por el proveedor y por la organización, procedimientos para incidentes, y estrategias de salida.",
+    "examples": [
+      "Política de uso de servicios en la nube",
+      "Evaluación de riesgos antes de adoptar nuevos servicios cloud",
+      "Plan de salida y portabilidad de datos en la nube"
+    ],
+    "keywords": ["nube", "cloud", "servicios en la nube", "proveedor de servicios", "seguridad", "portabilidad", "responsabilidad compartida"]
+  },
+  {
+    "control_id": "5.24",
+    "title": "Planificación y preparación de la gestión de incidentes de seguridad de la información",
+    "domain": "Controles Organizacionales",
+    "type": "Correctivo",
+    "objective": "Garantizar una respuesta rápida, eficaz, coherente y ordenada a los incidentes de seguridad de la información, incluida la comunicación sobre eventos de seguridad de la información.",
+    "content": "La organización debe planificar y prepararse para la gestión de incidentes de seguridad de la información definiendo, estableciendo y comunicando procesos, funciones y responsabilidades de gestión de incidentes.",
+    "implementation": "Se debe establecer un método común para reportar eventos, un proceso de gestión de incidentes para administrar, documentar y coordinar partes interesadas, un proceso de respuesta para evaluar y aprender de incidentes, y planes de continuidad asociados.",
+    "examples": [
+      "Plan de respuesta a incidentes de seguridad",
+      "Equipo de respuesta a incidentes (CSIRT)",
+      "Procedimientos de escalamiento y comunicación de incidentes"
+    ],
+    "keywords": ["gestión de incidentes", "planificación", "respuesta", "CSIRT", "escalamiento", "procedimientos", "continuidad"]
+  },
+  {
+    "control_id": "5.25",
+    "title": "Evaluación y decisión sobre eventos de seguridad de la información",
+    "domain": "Controles Organizacionales",
+    "type": "Detective",
+    "objective": "Asegurar una categorización y priorización efectiva de los eventos de seguridad de la información.",
+    "content": "La organización debería evaluar los eventos de seguridad de la información y decidir si se clasificarán como incidentes de seguridad de la información.",
+    "implementation": "Se debe acordar un esquema de categorización y priorización de incidentes que incluya criterios para categorizar eventos como incidentes. El punto de contacto debe evaluar cada evento usando el esquema acordado. Los resultados de la evaluación deben registrarse.",
+    "examples": [
+      "Matriz de clasificación de incidentes por impacto y probabilidad",
+      "Criterios de escalamiento según categoría de incidente",
+      "Procedimiento de clasificación y priorización de eventos"
+    ],
+    "keywords": ["evaluación", "eventos", "incidentes", "clasificación", "priorización", "categorización", "decisión"]
+  },
+  {
+    "control_id": "5.26",
+    "title": "Respuesta a incidentes de seguridad de la información",
+    "domain": "Controles Organizacionales",
+    "type": "Correctivo",
+    "objective": "Garantizar una respuesta eficiente y eficaz a los incidentes de seguridad de la información.",
+    "content": "Se debe responder a los incidentes de seguridad de la información de acuerdo con los procedimientos documentados.",
+    "implementation": "La respuesta debe incluir: contención de los sistemas afectados, recopilación de evidencia, escalamiento cuando sea necesario, registro de todas las actividades de respuesta, comunicación a partes interesadas, coordinación con partes internas y externas, cierre formal del incidente y análisis post-incidente.",
+    "examples": [
+      "Procedimientos de contención y erradicación de amenazas",
+      "Proceso de análisis forense post-incidente",
+      "Plantillas de comunicación de incidentes a partes interesadas"
+    ],
+    "keywords": ["respuesta a incidentes", "contención", "erradicación", "forense", "comunicación", "escalamiento", "análisis post-incidente"]
+  },
+  {
+    "control_id": "5.27",
+    "title": "Aprendiendo de los incidentes de seguridad de la información",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Reducir la probabilidad o las consecuencias de futuros incidentes.",
+    "content": "El conocimiento obtenido de los incidentes de seguridad de la información debe utilizarse para fortalecer y mejorar los controles de seguridad de la información.",
+    "implementation": "La información de incidentes debe usarse para: mejorar el plan de gestión de incidentes, identificar incidentes recurrentes y sus causas, determinar controles adicionales para reducir la probabilidad de incidentes similares, y mejorar la concienciación y formación de usuarios.",
+    "examples": [
+      "Informes de lecciones aprendidas después de incidentes significativos",
+      "Actualización de planes de respuesta basada en incidentes previos",
+      "Sesiones de revisión post-incidente con el equipo de seguridad"
+    ],
+    "keywords": ["lecciones aprendidas", "mejora continua", "incidentes", "análisis", "recurrencia", "controles", "conocimiento"]
+  },
+  {
+    "control_id": "5.28",
+    "title": "Recopilación de pruebas",
+    "domain": "Controles Organizacionales",
+    "type": "Correctivo",
+    "objective": "Asegurar una gestión consistente y eficaz de la evidencia relacionada con incidentes de seguridad de la información para efectos de acciones disciplinarias y legales.",
+    "content": "La organización debe establecer e implementar procedimientos para la identificación, recopilación, adquisición y preservación de evidencia relacionada con eventos de seguridad de la información.",
+    "implementation": "Los procedimientos deben proporcionar instrucciones para la identificación, recopilación, adquisición y conservación de pruebas de acuerdo con diferentes tipos de medios y dispositivos. Se debe demostrar que los registros están completos, no manipulados, y que los sistemas funcionaban correctamente cuando se registraron.",
+    "examples": [
+      "Cadena de custodia de evidencia digital",
+      "Herramientas forenses certificadas para recopilación de evidencia",
+      "Procedimientos de hash y verificación de integridad de evidencia"
+    ],
+    "keywords": ["evidencia", "forense", "recopilación de pruebas", "cadena de custodia", "digital", "legal", "preservación"]
+  },
+  {
+    "control_id": "5.29",
+    "title": "Seguridad de la información durante la interrupción",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Proteger la información y otros activos asociados durante la interrupción.",
+    "content": "La organización debe planificar cómo mantener la seguridad de la información en un nivel adecuado durante la interrupción.",
+    "implementation": "La organización debe implementar y mantener: controles de seguridad dentro de planes de continuidad del negocio y TIC, procesos para mantener controles de seguridad durante la interrupción, y controles de compensación para aquellos que no se pueden mantener durante la interrupción.",
+    "examples": [
+      "Controles de seguridad alternativos en sitios de recuperación",
+      "Procedimientos de seguridad en modo de contingencia",
+      "Plan de continuidad con requisitos de seguridad de la información"
+    ],
+    "keywords": ["continuidad", "interrupción", "resiliencia", "planes de continuidad", "controles de compensación", "disponibilidad", "recuperación"]
+  },
+  {
+    "control_id": "5.30",
+    "title": "Preparación de las TIC para la continuidad del negocio",
+    "domain": "Controles Organizacionales",
+    "type": "Correctivo",
+    "objective": "Garantizar la disponibilidad de la información de la organización y otros activos asociados durante la interrupción.",
+    "content": "La preparación de las TIC debe planificarse, implementarse, mantenerse y probarse en función de los objetivos de continuidad del negocio y los requisitos de continuidad de las TIC.",
+    "implementation": "Los planes de continuidad de TIC deben incluir: especificaciones de rendimiento y capacidad para los requisitos de continuidad del negocio, RTO de cada servicio TIC priorizado y procedimientos para su restauración, y RPO de los recursos TIC priorizados.",
+    "examples": [
+      "Plan de continuidad de TIC con RTO y RPO definidos",
+      "Sitio de recuperación de desastres con infraestructura redundante",
+      "Pruebas regulares de failover de sistemas críticos"
+    ],
+    "keywords": ["continuidad de TIC", "RTO", "RPO", "recuperación de desastres", "BIA", "disponibilidad", "resiliencia"]
+  },
+  {
+    "control_id": "5.31",
+    "title": "Requisitos legales, estatutarios, reglamentarios y contractuales",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Asegurar el cumplimiento de los requisitos legales, estatutarios, reglamentarios y contractuales relacionados con la seguridad de la información.",
+    "content": "Los requisitos legales, estatutarios, reglamentarios y contractuales relevantes para la seguridad de la información y el enfoque de la organización para cumplir con estos requisitos deben identificarse, documentarse y mantenerse actualizados.",
+    "implementation": "La organización debe identificar toda la legislación pertinente, considerar el cumplimiento en todos los países relevantes, revisar periódicamente la legislación, y definir procesos y responsabilidades individuales para cumplir con estos requisitos. En criptografía se deben considerar restricciones de importación/exportación.",
+    "examples": [
+      "Registro de requisitos legales de seguridad de la información",
+      "Proceso de seguimiento de cambios regulatorios",
+      "Revisión de cumplimiento de normativas de protección de datos"
+    ],
+    "keywords": ["requisitos legales", "regulatorios", "cumplimiento", "contratos", "legislación", "criptografía", "normativa"]
+  },
+  {
+    "control_id": "5.32",
+    "title": "Derechos de propiedad intelectual",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Garantizar el cumplimiento de los requisitos legales, estatutarios, reglamentarios y contractuales relacionados con los derechos de propiedad intelectual y el uso de productos patentados.",
+    "content": "La organización debe implementar procedimientos apropiados para proteger los derechos de propiedad intelectual.",
+    "implementation": "Se deben establecer: política específica sobre protección de derechos de propiedad intelectual, procedimientos para cumplimiento que definan el uso conforme de software, adquisición de software solo de fuentes acreditadas, registros de activos con requisitos de propiedad intelectual, y revisiones para garantizar instalación solo de software autorizado.",
+    "examples": [
+      "Inventario de licencias de software con fecha de vencimiento",
+      "Proceso de adquisición de software con verificación de licencias",
+      "Auditoría periódica de software instalado vs. licenciado"
+    ],
+    "keywords": ["propiedad intelectual", "derechos de autor", "licencias", "software", "patentes", "marcas registradas", "cumplimiento"]
+  },
+  {
+    "control_id": "5.33",
+    "title": "Protección de registros",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Garantizar el cumplimiento de los requisitos legales, estatutarios, reglamentarios y contractuales, así como las expectativas de la comunidad o la sociedad relacionadas con la protección y disponibilidad de los registros.",
+    "content": "Los registros deben protegerse contra pérdida, destrucción, falsificación, acceso no autorizado y publicación no autorizada.",
+    "implementation": "La organización debe emitir lineamientos sobre almacenamiento, manejo de cadena de custodia y eliminación de registros. Se debe elaborar un calendario de conservación con períodos de retención definidos. Los sistemas de almacenamiento deben elegirse de manera que los registros puedan recuperarse en un tiempo y formato aceptables.",
+    "examples": [
+      "Política de retención de registros con períodos por tipo de documento",
+      "Sistema de gestión de registros con controles de acceso",
+      "Procedimiento de destrucción segura de registros al vencimiento"
+    ],
+    "keywords": ["registros", "protección", "retención", "destrucción", "falsificación", "acceso no autorizado", "período de retención"]
+  },
+  {
+    "control_id": "5.34",
+    "title": "Privacidad y protección de PII",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Garantizar el cumplimiento de los requisitos legales, estatutarios, reglamentarios y contractuales relacionados con los aspectos de seguridad de la información de la protección de PII.",
+    "content": "La organización debe identificar y cumplir los requisitos relacionados con la preservación de la privacidad y la protección de la PII de acuerdo con las leyes y reglamentos aplicables y los requisitos contractuales.",
+    "implementation": "Se debe establecer una política de privacidad y protección de PII, desarrollar procedimientos para la preservación de la privacidad, designar un oficial de privacidad para orientar al personal, implementar medidas técnicas y organizativas apropiadas, y aplicar los requisitos a proveedores que procesan PII.",
+    "examples": [
+      "Política de privacidad y protección de datos personales",
+      "Oficial de Protección de Datos (DPO) designado",
+      "Evaluación de Impacto en la Privacidad (PIA) para nuevos procesos"
+    ],
+    "keywords": ["privacidad", "PII", "datos personales", "protección de datos", "DPO", "GDPR", "cumplimiento"]
+  },
+  {
+    "control_id": "5.35",
+    "title": "Revisión independiente de la seguridad de la información",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Asegurar la idoneidad, adecuación y eficacia continuas del enfoque de la organización para gestionar y implementar la seguridad de la información.",
+    "content": "El enfoque de la organización para gestionar la seguridad de la información y su implementación, incluidas las personas, los procesos y las tecnologías, deben revisarse de forma independiente a intervalos planificados o cuando se produzcan cambios significativos.",
+    "implementation": "Las revisiones independientes deben ser realizadas por auditores internos, gerencia, o una tercera parte externa. Los resultados deben documentarse y reportarse a la gerencia correspondiente. Los hallazgos deben gestionarse con planes de acción correctiva.",
+    "examples": [
+      "Auditorías internas de seguridad de la información",
+      "Revisiones de cumplimiento de ISO 27001",
+      "Pentesting y evaluaciones de vulnerabilidades por terceros"
+    ],
+    "keywords": ["auditoría", "revisión independiente", "cumplimiento", "terceros", "evaluación", "mejora", "controles"]
+  },
+  {
+    "control_id": "5.36",
+    "title": "Cumplimiento de políticas, normas y estándares de seguridad de la información",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Asegurar que la seguridad de la información se implemente y opere de acuerdo con la política de seguridad de la información, las políticas específicas del tema, las normas y los estándares de la organización.",
+    "content": "El cumplimiento de la política de seguridad de la información, las políticas específicas del tema y las normas de la organización debe revisarse periódicamente.",
+    "implementation": "Los gerentes y propietarios de la información deben realizar revisiones periódicas de cumplimiento dentro de sus áreas de responsabilidad. Las herramientas de evaluación automatizada deben utilizarse cuando sea posible. Los resultados de las revisiones deben documentarse y las no conformidades deben abordarse.",
+    "examples": [
+      "Revisiones periódicas de cumplimiento por propietarios de sistema",
+      "Herramientas de evaluación automatizada de cumplimiento de políticas",
+      "Proceso de gestión de excepciones y desviaciones a políticas"
+    ],
+    "keywords": ["cumplimiento", "políticas", "normas", "estándares", "revisión", "no conformidad", "evaluación"]
+  },
+  {
+    "control_id": "5.37",
+    "title": "Procedimientos operativos documentados",
+    "domain": "Controles Organizacionales",
+    "type": "Preventivo",
+    "objective": "Asegurar el correcto y seguro funcionamiento de las instalaciones de procesamiento de información.",
+    "content": "Los procedimientos operativos para las instalaciones de procesamiento de información deben documentarse y ponerse a disposición del personal que los necesite.",
+    "implementation": "Los procedimientos documentados deben prepararse para las actividades del sistema asociadas con las instalaciones de procesamiento de información y comunicación. Los procedimientos deben abordar: arranque y cierre de computadoras, copia de seguridad, mantenimiento de equipos, tratamiento de errores y gestión de registros.",
+    "examples": [
+      "Procedimientos de arranque y apagado de sistemas críticos",
+      "Manual de operaciones de centro de datos",
+      "Runbooks para gestión de incidentes operativos"
+    ],
+    "keywords": ["procedimientos operativos", "documentación", "instalaciones de procesamiento", "manual", "operaciones", "runbook"]
+  },
+  {
+    "control_id": "6.1",
+    "title": "Cribado (Selección de personal)",
+    "domain": "Controles de Personas",
+    "type": "Preventivo",
+    "objective": "Asegurar que todo el personal sea elegible y adecuado para las funciones para las que se le considera y siga siendo elegible y adecuado durante su empleo.",
+    "content": "Los controles de verificación de antecedentes de todos los candidatos para convertirse en personal deben llevarse a cabo antes de unirse a la organización y de manera continua, teniendo en cuenta las leyes, regulaciones y ética aplicables, y deben ser proporcionales a los requisitos comerciales, la clasificación de la información a la que se accede y los riesgos percibidos.",
+    "implementation": "La verificación debe incluir: referencias satisfactorias, verificación de currículum, confirmación de calificaciones, verificación de identidad independiente, y para roles críticos, verificación de crédito o antecedentes penales. El proceso debe cumplir con la legislación de privacidad aplicable.",
+    "examples": [
+      "Proceso de verificación de antecedentes para nuevos empleados",
+      "Verificación de calificaciones académicas y certificaciones",
+      "Controles adicionales para roles con acceso a información altamente sensible"
+    ],
+    "keywords": ["cribado", "selección de personal", "verificación de antecedentes", "referencias", "reclutamiento", "antecedentes penales"]
+  },
+  {
+    "control_id": "6.2",
+    "title": "Términos y condiciones de empleo",
+    "domain": "Controles de Personas",
+    "type": "Preventivo",
+    "objective": "Asegurar que el personal comprenda sus responsabilidades de seguridad de la información para las funciones para las que se le considera.",
+    "content": "Los acuerdos contractuales de empleo deben establecer las responsabilidades del personal y de la organización para la seguridad de la información.",
+    "implementation": "Los contratos deben incluir: acuerdos de confidencialidad, responsabilidades legales (derechos de autor, protección de datos), responsabilidades de clasificación y gestión de información, responsabilidades para el tratamiento de información de partes interesadas, y acciones ante incumplimiento de requisitos de seguridad.",
+    "examples": [
+      "Cláusulas de confidencialidad en contratos de empleo",
+      "Código de conducta de seguridad de la información para empleados",
+      "Acuerdo de uso aceptable firmado al inicio del empleo"
+    ],
+    "keywords": ["contrato de empleo", "términos y condiciones", "confidencialidad", "responsabilidades", "código de conducta", "acuerdo"]
+  },
+  {
+    "control_id": "6.3",
+    "title": "Concientización, educación y capacitación en seguridad de la información",
+    "domain": "Controles de Personas",
+    "type": "Preventivo",
+    "objective": "Asegurar que el personal y las partes interesadas relevantes conozcan y cumplan con sus responsabilidades de seguridad de la información.",
+    "content": "El personal de la organización y las partes interesadas relevantes deben recibir la conciencia, educación y capacitación adecuadas sobre la seguridad de la información y actualizaciones regulares de la política de seguridad de la información.",
+    "implementation": "Se debe establecer un programa de concienciación con: actividades periódicas sobre mejores prácticas, comprensión del entorno de amenazas, procedimientos básicos de seguridad, y puntos de contacto para obtener información adicional. Para equipos técnicos, planes de capacitación en habilidades específicas de seguridad.",
+    "examples": [
+      "Programa anual de concienciación en seguridad",
+      "Simulacros de phishing para empleados",
+      "Cursos de certificación en seguridad para personal técnico"
+    ],
+    "keywords": ["concienciación", "capacitación", "educación", "seguridad", "phishing", "formación", "programa de seguridad"]
+  },
+  {
+    "control_id": "6.4",
+    "title": "Proceso disciplinario",
+    "domain": "Controles de Personas",
+    "type": "Preventivo",
+    "objective": "Asegurar que el personal y otras partes interesadas relevantes entiendan las consecuencias de la violación de la política de seguridad de la información.",
+    "content": "Se debe formalizar y comunicar un proceso disciplinario para tomar acciones contra el personal y otras partes interesadas relevantes que hayan cometido una violación de la política de seguridad de la información.",
+    "implementation": "El proceso disciplinario formal debe prever una respuesta graduada que tenga en cuenta: la naturaleza y gravedad del incumplimiento, si fue intencional o no, si es la primera o una reiterada infracción, y si el infractor fue debidamente capacitado. Debe ser proporcional y cumplir con requisitos legales.",
+    "examples": [
+      "Política disciplinaria con escala de sanciones por violaciones de seguridad",
+      "Proceso documentado de investigación previa a medidas disciplinarias",
+      "Registro de incumplimientos y acciones tomadas"
+    ],
+    "keywords": ["disciplinario", "sanciones", "violaciones", "política de seguridad", "incumplimiento", "proceso", "consecuencias"]
+  },
+  {
+    "control_id": "6.5",
+    "title": "Responsabilidades después de la terminación o cambio de empleo",
+    "domain": "Controles de Personas",
+    "type": "Preventivo",
+    "objective": "Proteger los intereses de la organización como parte del proceso de cambio o terminación de empleo o contratos.",
+    "content": "Las responsabilidades y deberes de seguridad de la información que siguen siendo válidos después de la terminación o el cambio de empleo deben definirse, aplicarse y comunicarse al personal pertinente y otras partes interesadas.",
+    "implementation": "El proceso de terminación debe incluir: responsabilidades de confidencialidad continuas, transferencia de conocimientos sobre operaciones en curso, restricción de copia no autorizada de información, y comunicación de cambios a contactos relevantes. Los cambios de empleo se tratan como terminación del rol actual.",
+    "examples": [
+      "Acuerdo de confidencialidad post-empleo",
+      "Procedimiento de transferencia de conocimiento al salir",
+      "Lista de verificación de salida incluyendo aspectos de seguridad"
+    ],
+    "keywords": ["terminación", "cambio de empleo", "responsabilidades post-empleo", "confidencialidad", "transferencia de conocimiento", "salida"]
+  },
+  {
+    "control_id": "6.6",
+    "title": "Acuerdos de confidencialidad o no divulgación",
+    "domain": "Controles de Personas",
+    "type": "Preventivo",
+    "objective": "Mantener la confidencialidad de la información accesible por el personal o partes externas.",
+    "content": "Los acuerdos de confidencialidad o no divulgación que reflejen las necesidades de la organización para la protección de la información deben ser identificados, documentados, revisados regularmente y firmados por el personal y otras partes interesadas relevantes.",
+    "implementation": "Los acuerdos de confidencialidad deben abordar: la definición de información a proteger, la duración del acuerdo, las responsabilidades de los signatarios para evitar divulgación no autorizada, la propiedad de la información y la propiedad intelectual, y las acciones previstas ante incumplimiento.",
+    "examples": [
+      "NDA (Non-Disclosure Agreement) para empleados",
+      "Acuerdos de confidencialidad con proveedores y contratistas",
+      "NDA específico para proyectos con información altamente sensible"
+    ],
+    "keywords": ["confidencialidad", "NDA", "no divulgación", "acuerdo", "información sensible", "propiedad intelectual", "signatario"]
+  },
+  {
+    "control_id": "6.7",
+    "title": "Trabajo a distancia",
+    "domain": "Controles de Personas",
+    "type": "Preventivo",
+    "objective": "Garantizar la seguridad de la información cuando el personal está trabajando de forma remota.",
+    "content": "Se deben implementar medidas de seguridad cuando el personal trabaja de forma remota para proteger la información a la que se accede, procesa o almacena fuera de las instalaciones de la organización.",
+    "implementation": "Las organizaciones que permiten trabajo remoto deben considerar: seguridad física del lugar de trabajo remoto, mecanismos de seguridad para el entorno físico remoto, requisitos de seguridad de las comunicaciones, uso de acceso remoto (VPN, escritorio virtual), y amenazas de acceso no autorizado de terceros en el entorno doméstico.",
+    "examples": [
+      "Política de teletrabajo con requisitos de seguridad",
+      "VPN corporativa para conexión remota segura",
+      "Requisitos de seguridad física para el espacio de trabajo doméstico"
+    ],
+    "keywords": ["teletrabajo", "trabajo remoto", "VPN", "seguridad remota", "acceso remoto", "BYOD", "seguridad doméstica"]
+  },
+  {
+    "control_id": "6.8",
+    "title": "Reporte de eventos de seguridad de la información",
+    "domain": "Controles de Personas",
+    "type": "Detective",
+    "objective": "Respaldar la notificación oportuna, coherente y eficaz de los eventos de seguridad de la información que pueden ser identificados por el personal.",
+    "content": "La organización debe proporcionar un mecanismo para que el personal informe eventos de seguridad de la información observados o sospechados a través de los canales apropiados de manera oportuna.",
+    "implementation": "Todo el personal debe conocer su responsabilidad de informar eventos de seguridad lo más rápido posible. El mecanismo de reporte debe ser fácil y accesible. Los eventos que deben reportarse incluyen: controles ineficaces, errores humanos, incumplimientos de políticas, comportamiento anómalo de sistemas y sospecha de infección por malware.",
+    "examples": [
+      "Portal web de reporte de incidentes de seguridad",
+      "Línea telefónica de seguridad para reportar incidentes urgentes",
+      "Formularios de reporte de incidentes en el sistema de tickets"
+    ],
+    "keywords": ["reporte de incidentes", "eventos de seguridad", "notificación", "canal de reporte", "malware", "anomalías", "personal"]
+  },
+  {
+    "control_id": "7.1",
+    "title": "Perímetros de seguridad física",
+    "domain": "Controles Físicos",
+    "type": "Preventivo",
+    "objective": "Evitar el acceso físico no autorizado, el daño y la interferencia a la información de la organización y otros activos asociados.",
+    "content": "Los perímetros de seguridad deben definirse y utilizarse para proteger las áreas que contienen información y otros activos asociados.",
+    "implementation": "Los perímetros de seguridad física deben incluir: definición de perímetros según requisitos de seguridad, construcción físicamente sólida de paredes y puertas, alarma y monitoreo de puertas contra incendios, y múltiples barreras para áreas con diferentes requisitos de seguridad.",
+    "examples": [
+      "Vallas y barreras perimetrales de instalaciones críticas",
+      "Sala de servidores con paredes reforzadas y acceso controlado",
+      "Zonas de seguridad concéntricas en centros de datos"
+    ],
+    "keywords": ["perímetro", "seguridad física", "barreras", "acceso físico", "instalaciones", "protección", "centro de datos"]
+  },
+  {
+    "control_id": "7.2",
+    "title": "Entrada física",
+    "domain": "Controles Físicos",
+    "type": "Preventivo",
+    "objective": "Garantizar que solo se produzca el acceso físico autorizado a la información de la organización y otros activos asociados.",
+    "content": "Las áreas seguras deben estar protegidas por controles de entrada y puntos de acceso apropiados.",
+    "implementation": "Los controles de entrada deben incluir: restricción de acceso solo a personal autorizado, libro de registro o registro electrónico de accesos, mecanismos de autenticación (tarjetas de acceso, biometría, doble factor), área de recepción monitoreada, y proceso de gestión de visitantes con supervisión.",
+    "examples": [
+      "Sistema de control de acceso con tarjetas de proximidad",
+      "Torniquetes con autenticación biométrica en zonas sensibles",
+      "Registro de visitantes con firma y emisión de credencial temporal"
+    ],
+    "keywords": ["control de acceso físico", "entrada", "visitantes", "tarjetas de acceso", "biometría", "registro de accesos", "áreas seguras"]
+  },
+  {
+    "control_id": "7.3",
+    "title": "Aseguramiento de oficinas, salas e instalaciones",
+    "domain": "Controles Físicos",
+    "type": "Preventivo",
+    "objective": "Prevenir el acceso físico no autorizado, el daño y la interferencia a la información de la organización y otros activos asociados en las oficinas, salas e instalaciones.",
+    "content": "Debe diseñarse e implementarse la seguridad física de las oficinas, salas e instalaciones.",
+    "implementation": "Se debe considerar: ubicar instalaciones críticas lejos del acceso público, mantener edificios con indicación mínima de su propósito, configurar instalaciones para evitar que actividades confidenciales sean visibles desde el exterior, y no poner a disposición directorios que identifiquen ubicaciones de instalaciones de procesamiento.",
+    "examples": [
+      "Salas de reuniones con privacidad acústica para conversaciones sensibles",
+      "Oficinas de seguridad sin señalización identificatoria",
+      "Protección de pantallas de servidores y equipos críticos"
+    ],
+    "keywords": ["oficinas", "salas", "instalaciones", "seguridad física", "privacidad", "protección", "discreción"]
+  },
+  {
+    "control_id": "7.4",
+    "title": "Supervisión de la seguridad física",
+    "domain": "Controles Físicos",
+    "type": "Preventivo",
+    "objective": "Detectar y disuadir el acceso físico no autorizado.",
+    "content": "Las instalaciones deben ser monitoreadas continuamente para detectar accesos físicos no autorizados.",
+    "implementation": "El monitoreo debe incluir: sistemas de vigilancia por video (CCTV), detectores de contacto, sonido o movimiento, alarmas de intrusión, y sistemas de gestión de información de seguridad física. Los sistemas de monitoreo deben protegerse contra el acceso no autorizado.",
+    "examples": [
+      "Sistema CCTV con retención de grabaciones por período definido",
+      "Alarmas de intrusión en perímetros y áreas sensibles",
+      "Centro de operaciones de seguridad con monitoreo 24/7"
+    ],
+    "keywords": ["CCTV", "videovigilancia", "alarmas de intrusión", "monitoreo", "detección", "seguridad física", "centro de operaciones"]
+  },
+  {
+    "control_id": "7.5",
+    "title": "Protección contra amenazas físicas y ambientales",
+    "domain": "Controles Físicos",
+    "type": "Preventivo",
+    "objective": "Prevenir o reducir las consecuencias de eventos originados por amenazas físicas y ambientales.",
+    "content": "Se debe diseñar e implementar la protección contra amenazas físicas y ambientales, como desastres naturales y otras amenazas físicas intencionales o no intencionales a la infraestructura.",
+    "implementation": "Se debe realizar una evaluación de riesgos de amenazas físicas y ambientales. Las salvaguardas deben considerar: sistemas de detección y extinción de incendios, sistemas de detección de inundaciones, protección contra sobretensiones eléctricas, e inspecciones para detectar explosivos en instalaciones críticas.",
+    "examples": [
+      "Sistema de supresión de incendios (halon, CO2) en salas de servidores",
+      "Sensores de agua bajo el piso de centros de datos",
+      "UPS y generadores de respaldo para continuidad eléctrica"
+    ],
+    "keywords": ["amenazas físicas", "ambientales", "incendio", "inundación", "explosivos", "sobretensión", "desastres naturales"]
+  },
+  {
+    "control_id": "7.6",
+    "title": "Trabajar en áreas seguras",
+    "domain": "Controles Físicos",
+    "type": "Preventivo",
+    "objective": "Proteger la información y otros activos asociados en áreas seguras contra daños e interferencias no autorizadas por parte del personal que trabaja en estas áreas.",
+    "content": "Se deben diseñar e implementar medidas de seguridad para trabajar en áreas seguras.",
+    "implementation": "Las medidas deben incluir: conciencia del personal solo según necesidad de conocer, evitar el trabajo sin supervisión en áreas seguras, cerrar físicamente e inspeccionar áreas vacantes, prohibir equipos de grabación no autorizados, y controlar el transporte y uso de dispositivos de punto final del usuario en áreas seguras.",
+    "examples": [
+      "Política de no fotografía en salas de servidores",
+      "Registro de personal con acceso a áreas seguras",
+      "Inspección periódica de áreas seguras cuando están vacías"
+    ],
+    "keywords": ["áreas seguras", "trabajo seguro", "supervisión", "grabación", "acceso controlado", "inspección", "dispositivos"]
+  },
+  {
+    "control_id": "7.7",
+    "title": "Escritorio despejado y pantalla despejada",
+    "domain": "Controles Físicos",
+    "type": "Preventivo",
+    "objective": "Reducir los riesgos de acceso no autorizado, pérdida y daño de la información en escritorios, pantallas y en otros lugares accesibles durante y fuera del horario normal de trabajo.",
+    "content": "Deben definirse y aplicarse adecuadamente reglas de escritorio limpio para documentos y medios de almacenamiento extraíbles y reglas de pantalla limpia para las instalaciones de procesamiento de información.",
+    "implementation": "Las reglas deben incluir: guardar bajo llave información comercial sensible cuando no se requiera, proteger dispositivos de punto final cuando no estén en uso, dejar pantallas bloqueadas cuando estén desatendidas, retirar inmediatamente impresiones de impresoras compartidas, y borrar información sensible de pizarras.",
+    "examples": [
+      "Política de escritorio limpio comunicada a todos los empleados",
+      "Protectores de pantalla con contraseña habilitados automáticamente",
+      "Trituradora de papel en áreas de trabajo para documentos sensibles"
+    ],
+    "keywords": ["escritorio limpio", "pantalla limpia", "bloqueo de pantalla", "documentos", "impresoras", "política", "información sensible"]
+  },
+  {
+    "control_id": "7.8",
+    "title": "Ubicación y protección del equipo",
+    "domain": "Controles Físicos",
+    "type": "Preventivo",
+    "objective": "Reducir los riesgos de amenazas físicas y ambientales, y de accesos y daños no autorizados.",
+    "content": "El equipo debe estar ubicado de forma segura y protegida.",
+    "implementation": "Se debe considerar: ubicar el equipo para minimizar el acceso innecesario, proteger instalaciones que manejan datos confidenciales para reducir el riesgo de visualización no autorizada, minimizar riesgos de amenazas físicas y ambientales, controlar el acceso al equipo, y separar instalaciones gestionadas por la organización de las de terceros.",
+    "examples": [
+      "Racks de servidores en salas de acceso controlado",
+      "Filtros de pantalla de privacidad en equipos en espacios abiertos",
+      "Protección contra rayos en infraestructura eléctrica y de comunicaciones"
+    ],
+    "keywords": ["ubicación de equipos", "protección física", "acceso no autorizado", "amenazas ambientales", "centro de datos", "seguridad"]
+  },
+  {
+    "control_id": "7.9",
+    "title": "Seguridad de los activos fuera de las instalaciones",
+    "domain": "Controles Físicos",
+    "type": "Preventivo",
+    "objective": "Evitar la pérdida, el daño, el robo o el compromiso de los dispositivos externos y la interrupción de las operaciones de la organización.",
+    "content": "Los activos fuera del sitio deben estar protegidos.",
+    "implementation": "Los dispositivos utilizados fuera de las instalaciones deben: no dejarse desatendidos en lugares públicos, seguir las instrucciones de los fabricantes, mantener un registro de cadena de custodia, requerir autorización para retiro de instalaciones, protegerse contra la visualización en transporte público (shoulder surfing), e implementar seguimiento de ubicación y borrado remoto.",
+    "examples": [
+      "Política de seguridad para dispositivos móviles fuera de instalaciones",
+      "Gestión de dispositivos móviles (MDM) con borrado remoto",
+      "Proceso de autorización para llevar equipos fuera de la organización"
+    ],
+    "keywords": ["activos fuera de instalaciones", "dispositivos móviles", "robo", "MDM", "borrado remoto", "cadena de custodia", "autorización"]
+  },
+  {
+    "control_id": "7.10",
+    "title": "Medios de almacenamiento",
+    "domain": "Controles Físicos",
+    "type": "Preventivo",
+    "objective": "Garantizar únicamente la divulgación, modificación, eliminación o destrucción autorizada de la información en los medios de almacenamiento.",
+    "content": "Los medios de almacenamiento deben gestionarse a lo largo de su ciclo de vida de adquisición, uso, transporte y eliminación de acuerdo con el esquema de clasificación y los requisitos de manipulación de la organización.",
+    "implementation": "Para medios extraíbles: establecer política de gestión, solicitar autorización para retiro, almacenar en entorno seguro, usar técnicas criptográficas para información confidencial, y mitigar el riesgo de degradación. Para eliminación: procedimientos para destrucción segura, desmagnetización o triturando físicamente el medio.",
+    "examples": [
+      "Política de gestión de USB y medios extraíbles",
+      "Proceso de destrucción segura de discos duros (certificado por proveedor)",
+      "Cifrado de todos los medios extraíbles que contengan información confidencial"
+    ],
+    "keywords": ["medios de almacenamiento", "USB", "destrucción segura", "eliminación", "cifrado", "ciclo de vida", "medios extraíbles"]
+  },
+  {
+    "control_id": "7.11",
+    "title": "Utilidades de apoyo",
+    "domain": "Controles Físicos",
+    "type": "Preventivo",
+    "objective": "Evitar la pérdida, el daño o el compromiso de la información y otros activos asociados, o la interrupción de las operaciones de la organización debido a fallas e interrupciones de los servicios públicos de apoyo.",
+    "content": "Las instalaciones de procesamiento de información deben estar protegidas contra cortes de energía y otras interrupciones causadas por fallas en los servicios públicos de apoyo.",
+    "implementation": "La organización debe asegurar que el equipo de apoyo a los servicios públicos esté configurado y mantenido según especificaciones del fabricante, las empresas de servicios sean evaluadas periódicamente, el equipo se inspeccione regularmente, y las empresas de servicios tengan múltiples alimentaciones con diversas rutas físicas.",
+    "examples": [
+      "UPS (Uninterruptible Power Supply) para sistemas críticos",
+      "Generadores de respaldo para centros de datos",
+      "Múltiples proveedores de telecomunicaciones con rutas redundantes"
+    ],
+    "keywords": ["servicios públicos", "electricidad", "telecomunicaciones", "UPS", "generadores", "redundancia", "continuidad"]
+  },
+  {
+    "control_id": "7.12",
+    "title": "Seguridad del cableado",
+    "domain": "Controles Físicos",
+    "type": "Preventivo",
+    "objective": "Evitar la pérdida, el daño, el robo o el compromiso de la información y otros activos asociados y la interrupción de las operaciones de la organización relacionadas con el cableado de energía y comunicaciones.",
+    "content": "Los cables que transportan energía, datos o servicios de información de apoyo deben protegerse contra intercepciones, interferencias o daños.",
+    "implementation": "Se debe considerar: cables subterráneos o con protección alternativa, separación de cables de alimentación y comunicaciones, para sistemas sensibles instalar conductos blindados y alarmas, uso de fibra óptica, barridos técnicos periódicos, y acceso controlado a paneles de conexión.",
+    "examples": [
+      "Cableado de red en conductos cerrados y señalizados",
+      "Separación física de cables de datos y energía",
+      "Fibra óptica para comunicaciones de alta seguridad"
+    ],
+    "keywords": ["cableado", "cables", "interceptación", "interferencia", "fibra óptica", "conductos", "seguridad física"]
+  },
+  {
+    "control_id": "7.13",
+    "title": "Mantenimiento de equipos",
+    "domain": "Controles Físicos",
+    "type": "Preventivo",
+    "objective": "Evitar la pérdida, daño, robo o compromiso de la información y otros activos asociados y la interrupción de las operaciones de la organización causada por la falta de mantenimiento.",
+    "content": "El equipo debe mantenerse correctamente para garantizar la disponibilidad, integridad y confidencialidad de la información.",
+    "implementation": "El mantenimiento debe incluir: seguir frecuencias y especificaciones del proveedor, implementar un programa de mantenimiento, usar solo personal de mantenimiento autorizado, mantener registros de fallas y mantenimiento, supervisar al personal externo de mantenimiento, y controlar el acceso para mantenimiento remoto.",
+    "examples": [
+      "Programa de mantenimiento preventivo de infraestructura TIC",
+      "Proceso de supervisión de mantenimiento por proveedores externos",
+      "Registro de mantenimiento con historial de intervenciones"
+    ],
+    "keywords": ["mantenimiento", "equipos", "preventivo", "correctivo", "proveedores", "supervisión", "registros"]
+  },
+  {
+    "control_id": "7.14",
+    "title": "Eliminación segura o reutilización de equipos",
+    "domain": "Controles Físicos",
+    "type": "Preventivo",
+    "objective": "Evitar la fuga de información de los equipos que se desecharán o reutilizarán.",
+    "content": "Los elementos del equipo que contengan medios de almacenamiento deben verificarse para garantizar que todos los datos confidenciales y el software con licencia se hayan eliminado o sobrescrito de forma segura antes de su eliminación o reutilización.",
+    "implementation": "Los medios de almacenamiento con información confidencial deben destruirse físicamente o la información debe destruirse usando técnicas que hagan la información irrecuperable. Las etiquetas que identifiquen a la organización o clasificación deben eliminarse. El cifrado de disco completo reduce el riesgo al desechar equipos.",
+    "examples": [
+      "Proceso certificado de destrucción de discos duros",
+      "Software de borrado seguro (Darik's Boot and Nuke, etc.)",
+      "Desmagnetización de medios de almacenamiento magnético"
+    ],
+    "keywords": ["eliminación de equipos", "destrucción segura", "borrado de datos", "reutilización", "desmagnetización", "cifrado", "medios de almacenamiento"]
+  },
+  {
+    "control_id": "8.1",
+    "title": "Dispositivos de punto final de usuario",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Proteger la información contra los riesgos introducidos por el uso de dispositivos de punto final de usuario.",
+    "content": "La información almacenada, procesada o accesible a través de los dispositivos finales de los usuarios debe protegerse.",
+    "implementation": "La política de dispositivos de punto final debe abordar: tipo de información y nivel de clasificación que pueden manejar, registro de dispositivos, protección física, restricción de instalación de software, requisitos de versiones y actualizaciones, reglas de conexión a redes externas, controles de acceso, cifrado, protección contra malware, y borrado remoto.",
+    "examples": [
+      "Gestión de dispositivos móviles (MDM/EMM)",
+      "Cifrado de disco completo en laptops corporativas",
+      "Política de BYOD con contenedor seguro para datos corporativos"
+    ],
+    "keywords": ["dispositivos de punto final", "laptops", "smartphones", "BYOD", "MDM", "cifrado", "malware", "borrado remoto"]
+  },
+  {
+    "control_id": "8.2",
+    "title": "Derechos de acceso privilegiado",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Garantizar que solo los usuarios autorizados, los componentes y servicios de software reciban derechos de acceso privilegiados.",
+    "content": "La asignación y el uso de derechos de acceso privilegiado deben restringirse y administrarse.",
+    "implementation": "Se debe: identificar usuarios que necesitan acceso privilegiado, asignar derechos según necesidad de conocer y mínimo privilegio, mantener un proceso de autorización y registro de todos los privilegios, revisar periódicamente a los usuarios con acceso privilegiado, no usar identidades administrador para tareas cotidianas, y registrar todos los accesos privilegiados.",
+    "examples": [
+      "Cuentas separadas para tareas administrativas y cotidianas",
+      "Gestión de acceso privilegiado (PAM) con sesiones grabadas",
+      "Proceso de break-glass para acceso de emergencia"
+    ],
+    "keywords": ["acceso privilegiado", "administrador", "mínimo privilegio", "PAM", "root", "cuentas privilegiadas", "control de acceso"]
+  },
+  {
+    "control_id": "8.3",
+    "title": "Restricción de acceso a la información",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Garantizar solo el acceso autorizado y evitar el acceso no autorizado a la información y otros activos asociados.",
+    "content": "El acceso a la información y otros activos asociados debe estar restringido de acuerdo con la política específica del tema establecida sobre control de acceso.",
+    "implementation": "La restricción de acceso debe: no permitir acceso de usuarios anónimos a información sensible, proporcionar mecanismos de configuración para controlar el acceso, controlar qué datos puede acceder un usuario, controlar qué identidades tienen qué nivel de acceso, y usar controles físicos o lógicos para el aislamiento de aplicaciones sensibles.",
+    "examples": [
+      "Listas de control de acceso (ACL) en recursos de red",
+      "Controles de acceso a bases de datos a nivel de fila y columna",
+      "Gestión de acceso dinámico basado en contexto (ubicación, dispositivo)"
+    ],
+    "keywords": ["restricción de acceso", "ACL", "control de acceso", "autorización", "anonimato", "datos sensibles", "aislamiento"]
+  },
+  {
+    "control_id": "8.4",
+    "title": "Acceso al código fuente",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Evitar la introducción de funciones no autorizadas, evitar cambios no intencionales o maliciosos y mantener la confidencialidad de la propiedad intelectual valiosa.",
+    "content": "El acceso de lectura y escritura al código fuente, las herramientas de desarrollo y las bibliotecas de software debe administrarse adecuadamente.",
+    "implementation": "El acceso al código fuente debe: controlarse a través de un sistema de gestión de código fuente, asignar acceso de lectura y escritura según roles, no dar a los desarrolladores acceso directo al repositorio sino a través de herramientas controladas, mantener las listas de programas en un entorno seguro, y mantener un registro de auditoría de todos los accesos y cambios.",
+    "examples": [
+      "Control de versiones con gestión de acceso (Git, SVN)",
+      "Revisión de código obligatoria (pull requests) antes de merge",
+      "Separación entre entornos de desarrollo y producción"
+    ],
+    "keywords": ["código fuente", "repositorio", "acceso al código", "control de versiones", "propiedad intelectual", "revisión de código", "desarrolladores"]
+  },
+  {
+    "control_id": "8.5",
+    "title": "Autenticación segura",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Garantizar que un usuario o una entidad se autentica de forma segura cuando se otorga acceso a sistemas, aplicaciones y servicios.",
+    "content": "Las tecnologías y los procedimientos de autenticación segura deben implementarse en función de las restricciones de acceso a la información y la política específica del tema sobre el control de acceso.",
+    "implementation": "Se debe elegir una técnica de autenticación adecuada para la clasificación de la información. Para sistemas críticos, se debe usar autenticación multifactor. Los procedimientos de inicio de sesión deben: no mostrar información confidencial hasta que el proceso se complete, no proporcionar mensajes de ayuda que asistan a usuarios no autorizados, y proteger contra ataques de fuerza bruta.",
+    "examples": [
+      "Autenticación multifactor (MFA) para acceso a sistemas críticos",
+      "Inicio de sesión único (SSO) con gestión centralizada",
+      "Autenticación basada en certificados digitales"
+    ],
+    "keywords": ["autenticación", "MFA", "multifactor", "SSO", "contraseñas", "certificados", "biometría", "fuerza bruta"]
+  },
+  {
+    "control_id": "8.6",
+    "title": "Gestión de la capacidad",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Asegurar la capacidad requerida de las instalaciones de procesamiento de información, recursos humanos, oficinas y otras instalaciones.",
+    "content": "El uso de los recursos debe monitorearse y ajustarse de acuerdo con los requisitos de capacidad actuales y esperados.",
+    "implementation": "Los requisitos de capacidad deben identificarse, el sistema debe ajustarse y supervisarse para garantizar disponibilidad y eficiencia, se deben realizar pruebas de estrés, y las proyecciones futuras deben considerar nuevos requisitos del negocio y tendencias. Se puede lograr aumentando capacidad o reduciendo la demanda.",
+    "examples": [
+      "Monitoreo de capacidad de CPU, memoria y almacenamiento",
+      "Escalado automático de recursos en entornos cloud",
+      "Plan de capacidad a 12 meses para sistemas críticos"
+    ],
+    "keywords": ["capacidad", "escalabilidad", "rendimiento", "monitoreo", "recursos", "pruebas de estrés", "planificación de capacidad"]
+  },
+  {
+    "control_id": "8.7",
+    "title": "Protección contra malware",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Garantizar que la información y otros activos asociados estén protegidos contra malware.",
+    "content": "La protección contra el malware debe implementarse y respaldarse mediante la conciencia adecuada del usuario.",
+    "implementation": "La protección debe basarse en: software de detección y reparación de malware, conciencia de seguridad, controles de acceso adecuados y gestión de cambios. Se deben implementar reglas para prevenir software no autorizado, herramientas para bloquear sitios maliciosos, reducir vulnerabilidades explotables, y realizar escaneos periódicos y actualizaciones regulares de definiciones.",
+    "examples": [
+      "Solución antivirus/EDR desplegada en todos los endpoints",
+      "Gateway de correo con antispam y antimalware",
+      "Listas de aplicaciones permitidas (application whitelisting)"
+    ],
+    "keywords": ["malware", "antivirus", "EDR", "detección", "ransomware", "protección", "escaneo", "definiciones"]
+  },
+  {
+    "control_id": "8.8",
+    "title": "Gestión de vulnerabilidades técnicas",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Prevenir la explotación de vulnerabilidades técnicas.",
+    "content": "Debería obtenerse información sobre las vulnerabilidades técnicas de los sistemas de información en uso, debería evaluarse la exposición de la organización a tales vulnerabilidades y deberían tomarse las medidas apropiadas.",
+    "implementation": "Se debe: mantener un inventario de activos como requisito previo, usar herramientas de escaneo de vulnerabilidades, realizar pruebas de penetración periódicas, evaluar vulnerabilidades identificadas, implementar un proceso de gestión de actualizaciones de software, y establecer un cronograma para reaccionar a notificaciones de vulnerabilidades.",
+    "examples": [
+      "Escaneos de vulnerabilidades periódicos con herramientas como Nessus o Qualys",
+      "Programa de gestión de parches de seguridad",
+      "Pruebas de penetración anuales por terceros certificados"
+    ],
+    "keywords": ["vulnerabilidades", "gestión de parches", "escaneo de vulnerabilidades", "pentesting", "CVE", "remediación", "patches"]
+  },
+  {
+    "control_id": "8.9",
+    "title": "Gestión de la configuración",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Garantizar que el hardware, el software, los servicios y las redes funcionen correctamente con la configuración de seguridad requerida, y que la configuración no se altere por cambios no autorizados o incorrectos.",
+    "content": "Las configuraciones, incluidas las configuraciones de seguridad, de hardware, software, servicios y redes deben establecerse, documentarse, implementarse, monitorearse y revisarse.",
+    "implementation": "Se deben definir plantillas estándar para la configuración segura de hardware, software, servicios y redes. Las configuraciones deben registrarse y los cambios seguir el proceso de gestión de cambios. Las configuraciones deben monitorearse continuamente comparándolas con las plantillas objetivo.",
+    "examples": [
+      "Líneas base de seguridad (CIS Benchmarks) para sistemas",
+      "Gestión de configuración con herramientas como Ansible, Chef o Puppet",
+      "Sistema de gestión de configuración (CMDB)"
+    ],
+    "keywords": ["configuración", "gestión de configuración", "línea base", "CIS Benchmarks", "hardening", "CMDB", "automatización"]
+  },
+  {
+    "control_id": "8.10",
+    "title": "Eliminación de información",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Evitar la exposición innecesaria de información confidencial y cumplir con los requisitos legales, estatutarios, reglamentarios y contractuales para la eliminación de información.",
+    "content": "La información almacenada en sistemas de información, dispositivos o en cualquier otro medio de almacenamiento debe ser eliminada cuando ya no sea necesaria.",
+    "implementation": "Se debe seleccionar un método de eliminación (sobrescritura electrónica o borrado criptográfico) de acuerdo con los requisitos comerciales y legales, registrar los resultados, obtener evidencia de eliminación de terceros cuando corresponda, y configurar sistemas para destruir información de forma segura automáticamente cuando ya no se necesite.",
+    "examples": [
+      "Proceso automatizado de eliminación de datos según política de retención",
+      "Borrado seguro certificado con software especializado",
+      "Destrucción física de medios de almacenamiento en fin de vida"
+    ],
+    "keywords": ["eliminación de información", "borrado seguro", "retención", "destrucción de datos", "sobrescritura", "borrado criptográfico", "ciclo de vida"]
+  },
+  {
+    "control_id": "8.11",
+    "title": "Enmascaramiento de datos",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Limitar la exposición de datos confidenciales, incluida la PII, y para cumplir con los requisitos legales, estatutarios, reglamentarios y contractuales.",
+    "content": "El enmascaramiento de datos se debe utilizar de acuerdo con la política específica del tema de la organización sobre el control de acceso y otras políticas relacionadas con el tema específico, y los requisitos comerciales, teniendo en cuenta la legislación aplicable.",
+    "implementation": "Las técnicas de enmascaramiento incluyen: seudonimización, anonimización, cifrado, anulación o eliminación de caracteres, sustitución y reemplazo de valores con su hash. Se debe verificar que los datos hayan sido adecuadamente anonimizados, considerando que la persona puede ser identificada indirectamente por combinación de datos.",
+    "examples": [
+      "Seudonimización de PII en entornos de desarrollo y pruebas",
+      "Enmascaramiento dinámico de datos en aplicaciones",
+      "Tokenización de datos de tarjetas de pago (PCI DSS)"
+    ],
+    "keywords": ["enmascaramiento", "seudonimización", "anonimización", "PII", "tokenización", "privacidad", "datos sensibles"]
+  },
+  {
+    "control_id": "8.12",
+    "title": "Prevención de fuga de datos",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Detectar y prevenir la divulgación y extracción no autorizada de información por parte de individuos o sistemas.",
+    "content": "Las medidas de prevención de fuga de datos deben aplicarse a los sistemas, redes y cualquier otro dispositivo que procese, almacene o transmita información confidencial.",
+    "implementation": "Se debe: identificar y clasificar la información a proteger contra fugas, monitorear canales de fuga de datos (correo, transferencias de archivos, dispositivos móviles), actuar para evitar filtraciones. Las herramientas DLP deben identificar datos sensibles en riesgo, detectar su divulgación no autorizada y bloquear acciones que expongan información confidencial.",
+    "examples": [
+      "Herramientas DLP en correo electrónico y endpoints",
+      "Control de dispositivos USB y medios extraíbles",
+      "Monitoreo de tráfico de red saliente para exfiltración de datos"
+    ],
+    "keywords": ["DLP", "fuga de datos", "prevención", "exfiltración", "información sensible", "clasificación", "monitoreo"]
+  },
+  {
+    "control_id": "8.13",
+    "title": "Copia de seguridad de la información",
+    "domain": "Controles Tecnológicos",
+    "type": "Correctivo",
+    "objective": "Permitir la recuperación de la pérdida de datos o sistemas.",
+    "content": "Las copias de respaldo de la información, el software y los sistemas deben mantenerse y probarse regularmente de acuerdo con la política de respaldo específica del tema acordada.",
+    "implementation": "La política de respaldo debe considerar: producción de registros precisos de copias de seguridad, reflejo de los requisitos de RPO del negocio, almacenamiento en ubicación remota segura, protección física y ambiental adecuada, pruebas regulares de recuperación, cifrado de copias de seguridad, y verificación de que no se pierdan datos inadvertidamente.",
+    "examples": [
+      "Copias de seguridad automáticas diarias con pruebas de restauración mensuales",
+      "Almacenamiento de copias en ubicación geográficamente separada",
+      "Regla de respaldo 3-2-1 (3 copias, 2 medios, 1 fuera de sitio)"
+    ],
+    "keywords": ["copia de seguridad", "backup", "restauración", "recuperación", "RPO", "cifrado", "almacenamiento offsite"]
+  },
+  {
+    "control_id": "8.14",
+    "title": "Redundancia de las instalaciones de procesamiento de información",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Asegurar el funcionamiento continuo de las instalaciones de procesamiento de información.",
+    "content": "Las instalaciones de procesamiento de información deben implementarse con suficiente redundancia para cumplir con los requisitos de disponibilidad.",
+    "implementation": "La redundancia puede introducirse duplicando instalaciones de procesamiento. Se deben considerar: múltiples proveedores de redes e instalaciones críticas, redes redundantes, centros de datos separados geográficamente, fuentes de alimentación redundantes, instancias paralelas de componentes de software con equilibrio de carga, y componentes duplicados en sistemas.",
+    "examples": [
+      "Arquitectura activo-activo entre dos centros de datos",
+      "Balanceo de carga entre múltiples servidores",
+      "Múltiples proveedores de internet con BGP failover"
+    ],
+    "keywords": ["redundancia", "alta disponibilidad", "failover", "balanceo de carga", "continuidad", "resiliencia", "centros de datos"]
+  },
+  {
+    "control_id": "8.15",
+    "title": "Registro",
+    "domain": "Controles Tecnológicos",
+    "type": "Detective",
+    "objective": "Registrar eventos, generar evidencia, garantizar la integridad de la información de registro, prevenir el acceso no autorizado, identificar eventos de seguridad de la información y respaldar investigaciones.",
+    "content": "Se deben producir, almacenar, proteger y analizar registros que registren actividades, excepciones, fallas y otros eventos relevantes.",
+    "implementation": "Los registros deben incluir: identificaciones de usuario, actividades del sistema, fechas, horas y detalles de eventos, identidad del dispositivo y ubicación, direcciones de red y protocolos. Los usuarios privilegiados no deben poder eliminar o desactivar registros de sus propias actividades. Se debe considerar el análisis de registros con herramientas SIEM.",
+    "examples": [
+      "Sistema SIEM centralizado para correlación de registros",
+      "Registros de auditoría protegidos en almacenamiento de solo lectura",
+      "Registros de acceso a sistemas críticos con retención de 12 meses"
+    ],
+    "keywords": ["registros", "logs", "SIEM", "auditoría", "eventos", "monitoreo", "trazabilidad", "correlación"]
+  },
+  {
+    "control_id": "8.16",
+    "title": "Actividades de seguimiento",
+    "domain": "Controles Tecnológicos",
+    "type": "Detective",
+    "objective": "Detectar comportamientos anómalos y posibles incidentes de seguridad de la información.",
+    "content": "Las redes, los sistemas y las aplicaciones deben monitorearse para detectar comportamientos anómalos y deben tomarse las medidas apropiadas para evaluar posibles incidentes de seguridad de la información.",
+    "implementation": "El monitoreo debe cubrir: tráfico de red entrante y saliente, acceso a sistemas y servidores, archivos de configuración críticos, registros de herramientas de seguridad, y registros de eventos de actividad del sistema. Se debe establecer una línea de base de comportamiento normal y monitorear contra ella para detectar anomalías.",
+    "examples": [
+      "Sistema de detección de intrusos (IDS/IPS)",
+      "Análisis de comportamiento de usuarios y entidades (UEBA)",
+      "Monitoreo de tráfico DNS para detección de botnets"
+    ],
+    "keywords": ["monitoreo", "seguimiento", "IDS", "IPS", "UEBA", "comportamiento anómalo", "detección", "línea de base"]
+  },
+  {
+    "control_id": "8.17",
+    "title": "Sincronización del reloj",
+    "domain": "Controles Tecnológicos",
+    "type": "Detective",
+    "objective": "Permitir la correlación y el análisis de eventos relacionados con la seguridad y otros datos registrados, y respaldar las investigaciones sobre incidentes de seguridad de la información.",
+    "content": "Los relojes de los sistemas de procesamiento de información utilizados por la organización deben sincronizarse con las fuentes de tiempo aprobadas.",
+    "implementation": "Se debe usar un reloj vinculado a transmisión de tiempo por radio o GPS como referencia. Se deben usar protocolos como NTP o PTP para mantener todos los sistemas sincronizados. La organización puede usar dos fuentes externas simultáneas para mejorar la confiabilidad.",
+    "examples": [
+      "Servidor NTP interno sincronizado con fuentes externas confiables",
+      "Monitoreo de desviaciones en la sincronización de relojes",
+      "Configuración de NTP en todos los equipos de red y servidores"
+    ],
+    "keywords": ["sincronización de relojes", "NTP", "PTP", "tiempo", "correlación de eventos", "GPS", "registros"]
+  },
+  {
+    "control_id": "8.18",
+    "title": "Uso de programas de utilidad privilegiados",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Garantizar que el uso de programas de utilidad no dañe el sistema y los controles de aplicaciones para la seguridad de la información.",
+    "content": "El uso de programas de utilidad que puedan anular los controles del sistema y de las aplicaciones debe restringirse y controlarse estrictamente.",
+    "implementation": "Se debe: limitar el uso al mínimo de usuarios autorizados, usar procedimientos de identificación y autenticación para programas de utilidad, definir y documentar niveles de autorización, no hacer disponibles los programas de utilidad a usuarios con acceso a aplicaciones, eliminar o deshabilitar programas de utilidad innecesarios, y registrar todos los usos.",
+    "examples": [
+      "Lista controlada de herramientas de diagnóstico y administración aprobadas",
+      "Restricción de herramientas de red (Wireshark, netcat) a personal autorizado",
+      "Registro de uso de herramientas de administración privilegiadas"
+    ],
+    "keywords": ["programas de utilidad", "herramientas privilegiadas", "diagnóstico", "administración", "restricción", "autorización", "registro"]
+  },
+  {
+    "control_id": "8.19",
+    "title": "Instalación de software en sistemas operativos",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Garantizar la integridad de los sistemas operativos y evitar la explotación de vulnerabilidades técnicas.",
+    "content": "Deben implementarse procedimientos y medidas para gestionar de forma segura la instalación de software en los sistemas operativos.",
+    "implementation": "Se debe: realizar actualizaciones solo por administradores capacitados con autorización adecuada, instalar solo código ejecutable aprobado sin código de desarrollo en sistemas operativos, instalar y actualizar solo después de pruebas exitosas, usar un sistema de control de configuración para todo el software operativo, y definir una estrategia de reversión antes de implementar cambios.",
+    "examples": [
+      "Lista de software aprobado para instalación en sistemas",
+      "Proceso de prueba y aprobación antes de despliegue en producción",
+      "Herramientas de gestión de software (SCCM, Intune, Jamf)"
+    ],
+    "keywords": ["instalación de software", "gestión de software", "actualizaciones", "aprobación", "pruebas", "sistemas operativos", "control de cambios"]
+  },
+  {
+    "control_id": "8.20",
+    "title": "Seguridad de redes",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Proteger la información en las redes y sus instalaciones de procesamiento de información de apoyo del compromiso a través de la red.",
+    "content": "Las redes y los dispositivos de red deben protegerse, administrarse y controlarse para proteger la información en los sistemas y aplicaciones.",
+    "implementation": "Se deben implementar controles para: proteger redes de acceso no autorizado, mantener documentación actualizada de diagramas de red, separar la responsabilidad operativa de redes de las operaciones de TIC, establecer controles para salvaguardar la confidencialidad e integridad de datos en redes públicas, y deshabilitar protocolos de red vulnerables.",
+    "examples": [
+      "Firewall perimetral y de próxima generación (NGFW)",
+      "Segmentación de red con zonas DMZ",
+      "VPN para conexiones remotas y entre sitios"
+    ],
+    "keywords": ["seguridad de redes", "firewall", "VPN", "segmentación", "DMZ", "monitoreo de red", "protocolos"]
+  },
+  {
+    "control_id": "8.21",
+    "title": "Seguridad de los servicios de red",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Garantizar la seguridad en el uso de los servicios de red.",
+    "content": "Los mecanismos de seguridad, los niveles de servicio y los requisitos de servicio de los servicios de red deben identificarse, implementarse y monitorearse.",
+    "implementation": "Las medidas de seguridad necesarias para servicios de red deben identificarse e implementarse. Se debe controlar periódicamente la capacidad del proveedor de gestionar los servicios acordados de forma segura. Las reglas de uso de redes y servicios deben cubrir: redes permitidas, requisitos de autenticación, procedimientos de autorización, y monitoreo del uso.",
+    "examples": [
+      "Acuerdos de nivel de servicio con proveedores de telecomunicaciones",
+      "Monitoreo de calidad de servicio de red (QoS)",
+      "Requisitos de seguridad para proveedores de servicios de red"
+    ],
+    "keywords": ["servicios de red", "SLA", "monitoreo", "proveedores de red", "autenticación de red", "autorización", "QoS"]
+  },
+  {
+    "control_id": "8.22",
+    "title": "Segregación de redes",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Dividir la red en límites de seguridad y controlar el tráfico entre ellos en función de las necesidades comerciales.",
+    "content": "Los grupos de servicios de información, usuarios y sistemas de información deben estar segregados en las redes de la organización.",
+    "implementation": "La organización debe dividir redes grandes en dominios separados según niveles de confianza, criticidad y sensibilidad. Los dominios deben separarse de la red pública. El acceso entre dominios debe controlarse mediante puertas de enlace (firewalls, enrutadores de filtrado). Se debe considerar SDN y SD-WAN para segregación lógica.",
+    "examples": [
+      "VLANs para separar redes de usuarios, servidores e invitados",
+      "Zona desmilitarizada (DMZ) para servidores con acceso externo",
+      "Redes separadas para sistemas OT e IT"
+    ],
+    "keywords": ["segregación de redes", "VLAN", "DMZ", "segmentación", "zonas de seguridad", "SDN", "firewalls"]
+  },
+  {
+    "control_id": "8.23",
+    "title": "Filtrado web",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Proteger los sistemas de los compromisos causados por el malware y evitar el acceso a recursos web no autorizados.",
+    "content": "El acceso a sitios web externos debe gestionarse para reducir la exposición al contenido malicioso.",
+    "implementation": "La organización debe definir qué tipos de sitios web están bloqueados. Las reglas deben bloquear el acceso a sitios maliciosos, de phishing, con contenido inapropiado y sitios de descarga de malware. Se deben revisar periódicamente las reglas y registrar el acceso a sitios web para monitoreo y análisis.",
+    "examples": [
+      "Proxy web con categorías de sitios bloqueados",
+      "DNS filtering (DNS sinkhole) para bloquear dominios maliciosos",
+      "Inspección de tráfico HTTPS con terminación SSL"
+    ],
+    "keywords": ["filtrado web", "proxy", "URL filtering", "DNS sinkhole", "sitios maliciosos", "phishing", "contenido"]
+  },
+  {
+    "control_id": "8.24",
+    "title": "Uso de criptografía",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Asegurar el uso adecuado y eficaz de la criptografía para proteger la confidencialidad, autenticidad o integridad de la información.",
+    "content": "Deben definirse e implementarse reglas para el uso efectivo de la criptografía, incluida la gestión de claves criptográficas.",
+    "implementation": "Se debe establecer una política sobre el uso de controles criptográficos. La gestión de claves debe cubrir todo el ciclo de vida, incluyendo generación, almacenamiento, distribución, retiro y destrucción de claves. Se deben usar algoritmos y longitudes de clave según estándares aprobados.",
+    "examples": [
+      "Cifrado de disco completo en dispositivos corporativos",
+      "TLS 1.2/1.3 para comunicaciones en tránsito",
+      "PKI corporativa para gestión de certificados digitales"
+    ],
+    "keywords": ["criptografía", "cifrado", "gestión de claves", "TLS", "PKI", "certificados", "algoritmos criptográficos"]
+  },
+  {
+    "control_id": "8.25",
+    "title": "Ciclo de vida de desarrollo seguro",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Asegurar que la seguridad de la información se diseñe e implemente dentro del ciclo de vida de desarrollo del software.",
+    "content": "Deben establecerse e implementarse reglas para el desarrollo seguro de software y sistemas.",
+    "implementation": "Las reglas de desarrollo seguro deben cubrir: directrices de programación segura, seguridad en metodologías de desarrollo (agile, waterfall), requisitos de seguridad en todas las fases del SDLC, principios de seguridad por diseño, hitos de seguridad en el proceso de entrega, y gestión segura del entorno de desarrollo.",
+    "examples": [
+      "OWASP Top 10 integrado en el proceso de desarrollo",
+      "Secure SDLC (DevSecOps) con pruebas de seguridad automatizadas",
+      "Capacitación en programación segura para desarrolladores"
+    ],
+    "keywords": ["desarrollo seguro", "SDLC", "DevSecOps", "OWASP", "programación segura", "ciclo de vida", "software"]
+  },
+  {
+    "control_id": "8.26",
+    "title": "Requisitos de seguridad de la aplicación",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Asegurar que todos los requisitos de seguridad de la información se identifiquen y aborden al desarrollar o adquirir aplicaciones.",
+    "content": "Los requisitos de seguridad de la información deben identificarse, especificarse y aprobarse al desarrollar o adquirir aplicaciones.",
+    "implementation": "Los requisitos de seguridad deben incluir: autenticación y control de acceso, validación de entradas y salidas, registros de auditoría, protección contra ataques comunes (inyección SQL, XSS, CSRF), cifrado de datos sensibles en reposo y en tránsito, y gestión segura de sesiones.",
+    "examples": [
+      "Catálogo de requisitos de seguridad para aplicaciones",
+      "Lista de verificación de seguridad para adquisición de software",
+      "Modelado de amenazas (threat modeling) en la fase de diseño"
+    ],
+    "keywords": ["requisitos de seguridad", "aplicaciones", "autenticación", "validación", "SQL injection", "XSS", "modelado de amenazas"]
+  },
+  {
+    "control_id": "8.27",
+    "title": "Arquitectura del sistema seguro y principios de ingeniería",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Asegurar que los sistemas de información sean diseñados, implementados y operados de forma segura dentro del ciclo de vida de desarrollo.",
+    "content": "Los principios para diseñar sistemas seguros deben establecerse, documentarse, mantenerse y aplicarse a cualquier actividad de implementación de sistemas de información.",
+    "implementation": "Los principios de ingeniería de seguridad deben cubrir: mínimo privilegio, defensa en profundidad, zero trust, seguridad por diseño, fail secure, separación de responsabilidades, y reducción de la superficie de ataque. Se debe establecer y mantener como estándares de ingeniería de la organización.",
+    "examples": [
+      "Principio de zero trust para diseño de arquitecturas",
+      "Defensa en profundidad con múltiples capas de seguridad",
+      "Patrones de arquitectura segura documentados como referencia"
+    ],
+    "keywords": ["arquitectura segura", "ingeniería de seguridad", "zero trust", "defensa en profundidad", "mínimo privilegio", "seguridad por diseño", "patrones"]
+  },
+  {
+    "control_id": "8.28",
+    "title": "Codificación segura",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Asegurar que el software se escriba de forma segura y reducir así el número de vulnerabilidades de seguridad de la información potenciales en el software.",
+    "content": "Los principios de codificación segura deben aplicarse al desarrollo del software.",
+    "implementation": "Los principios de codificación segura deben incluir: validación de entradas, codificación de salidas, gestión de errores y excepciones, uso de componentes de software seguros y actualizados, revisión de código con foco en seguridad, y escaneo de código estático (SAST) para identificar vulnerabilidades.",
+    "examples": [
+      "Guías de codificación segura por lenguaje (Java, Python, etc.)",
+      "Integración de SAST (análisis de código estático) en CI/CD",
+      "Revisiones de código de seguridad (code review) obligatorias"
+    ],
+    "keywords": ["codificación segura", "SAST", "DAST", "revisión de código", "vulnerabilidades", "validación de entrada", "DevSecOps"]
+  },
+  {
+    "control_id": "8.29",
+    "title": "Pruebas de seguridad en desarrollo y aceptación",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Validar que los requisitos de seguridad de la información se cumplan cuando se implementan las aplicaciones.",
+    "content": "Los procesos de prueba de seguridad deben definirse e implementarse en el ciclo de vida de desarrollo.",
+    "implementation": "Las pruebas de seguridad deben incluir: pruebas de vulnerabilidades de la aplicación, pruebas de penetración de la aplicación, análisis de código dinámico (DAST), revisiones de configuración de seguridad, y pruebas funcionales de controles de seguridad. Los criterios de aceptación deben incluir requisitos de seguridad mínimos.",
+    "examples": [
+      "Pruebas de penetración de aplicaciones antes de producción",
+      "Análisis de código dinámico (DAST) integrado en pipeline CI/CD",
+      "Criterios de aceptación de seguridad para despliegue en producción"
+    ],
+    "keywords": ["pruebas de seguridad", "DAST", "pentesting de aplicaciones", "criterios de aceptación", "CI/CD", "QA de seguridad", "pruebas funcionales"]
+  },
+  {
+    "control_id": "8.30",
+    "title": "Desarrollo subcontratado",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Asegurar que los requisitos de seguridad de la información de la organización se implementen en el desarrollo de software y sistemas subcontratados.",
+    "content": "La organización debe supervisar y monitorear la actividad de desarrollo de software subcontratado.",
+    "implementation": "Los acuerdos de subcontratación deben abordar: requisitos de seguridad de la información que el proveedor debe cumplir, requisitos de licencia, propiedad del código y derechos de propiedad intelectual, revisión de código por terceros, pruebas de aceptación, y requisitos para la divulgación y corrección de vulnerabilidades.",
+    "examples": [
+      "Cláusulas de seguridad en contratos de desarrollo externo",
+      "Revisión de código de terceros por el equipo interno",
+      "Proceso de aceptación de entregables con verificación de seguridad"
+    ],
+    "keywords": ["desarrollo subcontratado", "outsourcing", "terceros", "propiedad intelectual", "código fuente", "requisitos de seguridad", "aceptación"]
+  },
+  {
+    "control_id": "8.31",
+    "title": "Separación de los entornos de desarrollo, prueba y producción",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Proteger el entorno de producción y los datos de compromisos a causa de las actividades de desarrollo y pruebas.",
+    "content": "Los entornos de desarrollo, prueba y producción deben separarse y asegurarse.",
+    "implementation": "Se debe definir y documentar claramente las reglas de migración de software del entorno de desarrollo al de producción. Los entornos de desarrollo y prueba no deben utilizar datos de producción reales. El acceso a los entornos de producción debe estar estrictamente controlado y diferente de los otros entornos.",
+    "examples": [
+      "Entornos separados: desarrollo, QA, staging y producción",
+      "Uso de datos sintéticos o anonimizados en entornos de prueba",
+      "Proceso formal de pase a producción (change management)"
+    ],
+    "keywords": ["entornos", "desarrollo", "pruebas", "producción", "separación", "datos de producción", "migración"]
+  },
+  {
+    "control_id": "8.32",
+    "title": "Gestión de cambios",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Preservar la seguridad de la información y los sistemas cuando se realizan cambios.",
+    "content": "Los cambios en las instalaciones de procesamiento de información y los sistemas de información deben estar sujetos a procedimientos de gestión de cambios.",
+    "implementation": "Los procedimientos de gestión de cambios deben incluir: planificación y prueba de cambios, evaluación de impacto de seguridad, aprobación formal, comunicación a partes interesadas, procedimientos de reversión, y registro de todos los cambios. Los cambios de emergencia deben seguir un proceso acelerado documentado.",
+    "examples": [
+      "Comité de control de cambios (CAB) para cambios significativos",
+      "Proceso de RFC (Request for Change) con evaluación de impacto",
+      "Ventanas de mantenimiento planificadas para cambios en producción"
+    ],
+    "keywords": ["gestión de cambios", "CAB", "RFC", "control de cambios", "reversión", "impacto", "aprobación"]
+  },
+  {
+    "control_id": "8.33",
+    "title": "Información de prueba",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Asegurar la relevancia de las pruebas y la protección de la información de producción operacional utilizada para las pruebas.",
+    "content": "Los datos de prueba deben seleccionarse, protegerse y gestionarse adecuadamente.",
+    "implementation": "La información de prueba operacional sensible o confidencial no debe copiarse en entornos de prueba. Si se copian datos de producción, deben anonimizarse o seudonimizarse. Se debe obtener aprobación antes de usar datos de producción para pruebas, y dichos datos deben eliminarse inmediatamente después de las pruebas.",
+    "examples": [
+      "Datos sintéticos generados para pruebas (datos ficticios realistas)",
+      "Proceso de anonimización de datos de producción para pruebas",
+      "Política que prohíbe el uso de datos reales en entornos de prueba"
+    ],
+    "keywords": ["datos de prueba", "información de prueba", "anonimización", "datos de producción", "entornos de prueba", "protección de datos", "seudonimización"]
+  },
+  {
+    "control_id": "8.34",
+    "title": "Protección de los sistemas de información durante las pruebas de auditoría",
+    "domain": "Controles Tecnológicos",
+    "type": "Preventivo",
+    "objective": "Minimizar el impacto de las actividades de auditoría y otras actividades de aseguramiento en los sistemas operativos y los procesos de negocio.",
+    "content": "Las pruebas de auditoría y otras actividades de aseguramiento que involucren la evaluación de los sistemas operativos deben planificarse y acordarse entre el auditor y la gerencia adecuada.",
+    "implementation": "Las pruebas de auditoría deben: acordarse con la gerencia apropiada, planificarse para minimizar la interrupción de los procesos de negocio, controlarse el alcance del acceso, monitorear el acceso de auditores a datos y sistemas, asegurar que los datos y herramientas de auditoría se eliminen después de la auditoría, y limitar las pruebas a herramientas de solo lectura cuando sea posible.",
+    "examples": [
+      "Acuerdo de auditoría con alcance y procedimientos definidos",
+      "Acceso temporal solo de lectura a sistemas auditados",
+      "Proceso de control y monitoreo de actividad de auditores externos"
+    ],
+    "keywords": ["auditoría", "pruebas de auditoría", "aseguramiento", "sistemas operativos", "acceso de auditores", "alcance", "monitoreo"]
+  }
+]
