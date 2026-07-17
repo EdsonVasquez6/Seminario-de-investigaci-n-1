@@ -1,9 +1,4 @@
-# 🔐 Agente ISO/IEC 27002 — README
 
-**Proyecto de tesis:** Experiencia de usuario: Agente conversacional para el aprendizaje de la norma ISO/IEC 27002 referido a temas de seguridad de la información para estudiantes universitarios
-**Autor:** Edson Gerardo Vasquez Solis — Universidad de Lima
-
----
 
 ## 📁 Estructura del proyecto
 
@@ -11,7 +6,7 @@
 iso27002_agent/
 │
 ├── app.py                  ← Aplicación principal (Streamlit)
-├── config.py               ← Configuración y variables (NO incluye API key real)
+├── config.py               ← Configuración y variables 
 ├── reindex.py               ← Script para reconstruir el vectorstore manualmente
 ├── requirements.txt        ← Dependencias
 │
@@ -20,10 +15,10 @@ iso27002_agent/
 │   ├── dataset_loader.py   ← Cargador del dataset JSON/TXT
 │   └── session.py          ← Manejo de sesión Streamlit
 │
-├── dataset/                ← 📌 AQUÍ va tu dataset
+├── dataset/               
 │   └── ejemplo_estructura2.json  ← Dataset con los 93 controles ISO/IEC 27002
 │
-└── vectorstore/             ← Se crea automáticamente al indexar (ChromaDB). No se incluye en el repositorio.
+└── vectorstore/             ← Se crea automáticamente al indexar (ChromaDB).
 ```
 
 ---
@@ -42,21 +37,16 @@ source venv/bin/activate     # macOS/Linux
 pip install -r requirements.txt
 ```
 
-### 3. Obtener API Key de OpenAI
-1. Ve a: https://platform.openai.com/api-keys
-2. Crea una nueva API Key
-3. Copia la key (no la compartas ni la subas a ningún repositorio)
-
-### 4. Configurar la API Key
-Crea un archivo `.env` en la raíz del proyecto (este archivo **no debe subirse a GitHub**):
+### 3. Configurar la API Key
+Crear un archivo `.env` en la raíz del proyecto:
 ```
 OPENAI_API_KEY=tu_api_key_aqui
 ```
 
-### 5. Agregar tu dataset
-Coloca tu archivo JSON en la carpeta `dataset/`. Ver estructura abajo.
+### 4. Agregar tu dataset
+Coloca el archivo JSON en la carpeta `dataset/`. 
 
-### 6. Correr la aplicación
+### 5. Correr la aplicación
 ```bash
 streamlit run app.py
 ```
@@ -129,7 +119,7 @@ Respuesta mostrada al estudiante (con estrategia socrática si aplica)
 
 ## 🗄️ Re-indexar el dataset
 
-Si cambias el dataset, elimina la carpeta `vectorstore/` y vuelve a correr la app (o usa `reindex.py`):
+Si se cambia el dataset, elimina la carpeta `vectorstore/` y volver a correr la app (o usar `reindex.py`):
 ```bash
 rm -rf vectorstore/          # macOS/Linux
 rmdir /s vectorstore          # Windows
@@ -143,7 +133,6 @@ streamlit run app.py
 
 ## 🧪 Evaluación del sistema
 
-El proyecto incluye scripts adicionales para evaluar el desempeño del agente mediante métricas cuantitativas:
 
 | Métrica | Herramienta | Qué mide |
 |---|---|---|
@@ -155,18 +144,3 @@ Estos scripts de evaluación no forman parte del flujo principal de la aplicaci�
 
 ---
 
-## 💰 Costos estimados (API OpenAI)
-
-El uso de este proyecto genera costos reales asociados a:
-- **GPT-4o-mini:** costo por token de entrada/salida en cada consulta del estudiante.
-- **text-embedding-3-small:** costo por token al generar embeddings del dataset y de cada consulta.
-
-Para una tesis con uso moderado (indexación del dataset + pruebas + experimentación con un grupo reducido de estudiantes), el costo total es bajo, pero **no es gratuito** como ocurre con otros proveedores que ofrecen tiers gratuitos. Se recomienda establecer límites de gasto (*usage limits*) desde el panel de OpenAI para evitar cargos inesperados.
-
----
-
-## ⚠️ Seguridad
-
-- Nunca subas tu archivo `.env` ni tu API key a este repositorio.
-- Verifica que `config.py` no contenga ninguna key hardcodeada como valor por defecto.
-- La carpeta `vectorstore/` no se incluye en el repositorio, ya que se regenera automáticamente a partir del dataset.
