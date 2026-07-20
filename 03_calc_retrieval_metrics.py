@@ -1,8 +1,7 @@
 
-
 import json
 
-INPUT_PATH = "eval_results_full_expB.json"
+INPUT_PATH = "eval_results_full.json"
 
 with open(INPUT_PATH, "r", encoding="utf-8") as f:
     results = json.load(f)
@@ -19,10 +18,9 @@ for item in results:
         sin_expected += 1
         continue
 
- 
+
     hit = expected in retrieved
     recalls.append(1 if hit else 0)
-
 
     if hit:
         rank = retrieved.index(expected) + 1
@@ -38,8 +36,8 @@ print(f"Preguntas sin expected_control_id (excluidas): {sin_expected}")
 print(f"\nRecall@k: {recall_at_k:.4f}")
 print(f"MRR@k:    {mrr_at_k:.4f}")
 
-# Guarda un resumen
-with open("retrieval_metrics_summary_expB.json", "w", encoding="utf-8") as f:
+
+with open("retrieval_metrics_summary.json", "w", encoding="utf-8") as f:
     json.dump({
         "recall_at_k": recall_at_k,
         "mrr_at_k": mrr_at_k,
@@ -47,4 +45,4 @@ with open("retrieval_metrics_summary_expB.json", "w", encoding="utf-8") as f:
         "n_excluded_no_expected_id": sin_expected,
     }, f, indent=2, ensure_ascii=False)
 
-print("\nResumen guardado en retrieval_metrics_summary_expB.json")
+print("\nResumen guardado en retrieval_metrics_summary.json")
