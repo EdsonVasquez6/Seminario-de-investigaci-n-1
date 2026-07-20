@@ -1,0 +1,6 @@
+{
+  "faithfulness_mean": 0.8591763991273794,
+  "answer_relevancy_mean": 0.7215949737769121,
+  "answer_correctness_mean": 0.6226490346319516,
+  "n_evaluated": 279
+}
