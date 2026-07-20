@@ -19,11 +19,11 @@ for item in results:
         sin_expected += 1
         continue
 
-    # Recall@k: 1 si el control esperado está en los recuperados, 0 si no
+ 
     hit = expected in retrieved
     recalls.append(1 if hit else 0)
 
-    # MRR@k: 1 / posición (1-indexed) del primer acierto, 0 si no aparece
+
     if hit:
         rank = retrieved.index(expected) + 1
         reciprocal_ranks.append(1 / rank)
