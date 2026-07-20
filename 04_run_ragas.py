@@ -4,7 +4,7 @@ from datasets import Dataset
 from ragas import evaluate
 from ragas.metrics import faithfulness, answer_relevancy, answer_correctness
 
-INPUT_PATH = "eval_results_full_expB.json"
+INPUT_PATH = "eval_results_full.json"
 
 with open(INPUT_PATH, "r", encoding="utf-8") as f:
     results = json.load(f)
@@ -31,7 +31,7 @@ print("\nResultados RAGAS:")
 print(result)
 
 df = result.to_pandas()
-df.to_csv("ragas_results_detailed_expB.csv", index=False, encoding="utf-8")
+df.to_csv("ragas_results_detailed.csv", index=False, encoding="utf-8")
 
 summary = {
     "faithfulness_mean": float(df["faithfulness"].mean()),
