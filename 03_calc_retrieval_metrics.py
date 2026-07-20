@@ -1,14 +1,4 @@
-"""
-03_calc_retrieval_metrics.py (Experimento B)
-------------------------------
-Calcula Recall@k y MRR@k comparando el expected_control_id
-(reconstruido desde ground_truth en el paso 02) contra los
-retrieved_control_ids obtenidos por el pipeline real.
 
-Misma lógica exacta que el script original; solo cambian las rutas
-de entrada/salida para no pisar los resultados del experimento original
-(preguntas con número de control explícito).
-"""
 
 import json
 
