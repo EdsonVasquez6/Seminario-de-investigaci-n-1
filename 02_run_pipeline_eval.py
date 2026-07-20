@@ -58,15 +58,7 @@ for i, item in enumerate(eval_data):
             "error": str(e),
         })
 
-    time.sleep(0.5) 
-
-with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
-    json.dump(results, f, ensure_ascii=False, indent=2)
-
-print(f"\nListo. Resultados guardados en {OUTPUT_PATH}")
-print(f"Total procesado: {len(results)} preguntas")
-
-
+    time.sleep(0.5)  
 
 with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
     json.dump(results, f, ensure_ascii=False, indent=2)
