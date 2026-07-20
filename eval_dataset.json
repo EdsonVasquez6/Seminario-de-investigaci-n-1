@@ -1,0 +1,1118 @@
+[
+  {
+    "question": "¿Qué es el control 5.1 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.1, 'Políticas para la seguridad de la información', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. La política de seguridad de la información y las políticas específicas del tema deben ser definidas, aprobadas por la gerencia, publicadas, comunicadas y reconocidas por el personal relevante y las partes interesadas relevantes, y revisadas a intervalos planificados y si ocurren cambios significativos."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.1?",
+    "ground_truth": "El objetivo del control 5.1 (Políticas para la seguridad de la información) es: Garantizar la idoneidad, adecuación y eficacia continuas de la dirección de gestión y el apoyo a la seguridad de la información de acuerdo con los requisitos comerciales, legales, estatutarios, reglamentarios y contractuales."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.1?",
+    "ground_truth": "El control 5.1 (Políticas para la seguridad de la información) se implementa de la siguiente manera: La alta dirección debe definir una política de seguridad de la información que establezca el enfoque de la organización para gestionar su seguridad. Debe estar respaldada por políticas específicas del tema como control de acceso, seguridad física y ambiental, gestión de activos, transferencia de información, criptografía, clasificación de información y gestión de vulnerabilidades."
+  },
+  {
+    "question": "¿Qué es el control 5.2 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.2, 'Roles y responsabilidades en seguridad de la información', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. Los roles y responsabilidades de seguridad de la información deben definirse y asignarse de acuerdo con las necesidades de la organización."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.2?",
+    "ground_truth": "El objetivo del control 5.2 (Roles y responsabilidades en seguridad de la información) es: Establecer una estructura definida, aprobada y entendida para la implementación, operación y gestión de la seguridad de la información dentro de la organización."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.2?",
+    "ground_truth": "El control 5.2 (Roles y responsabilidades en seguridad de la información) se implementa de la siguiente manera: La asignación de roles y responsabilidades debe incluir: protección de la información y otros activos, realización de procesos específicos de seguridad, gestión de riesgos y aceptación de riesgos residuales, y responsabilidades de todo el personal que utiliza la información de la organización."
+  },
+  {
+    "question": "¿Qué es el control 5.3 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.3, 'Segregación de funciones', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. Deben segregarse los deberes conflictivos y las áreas conflictivas de responsabilidad."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.3?",
+    "ground_truth": "El objetivo del control 5.3 (Segregación de funciones) es: Reducir el riesgo de fraude, error y elusión de los controles de seguridad de la información."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.3?",
+    "ground_truth": "El control 5.3 (Segregación de funciones) se implementa de la siguiente manera: La organización debe determinar qué deberes y áreas de responsabilidad deben segregarse, tales como: iniciar, aprobar y ejecutar un cambio; solicitar, aprobar e implementar derechos de acceso; diseñar, implementar y revisar el código; y auditar los controles de seguridad."
+  },
+  {
+    "question": "¿Qué es el control 5.4 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.4, 'Responsabilidades de la dirección', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. La gerencia debe exigir a todo el personal que aplique la seguridad de la información de acuerdo con la política de seguridad de la información establecida, las políticas y los procedimientos específicos del tema de la organización."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.4?",
+    "ground_truth": "El objetivo del control 5.4 (Responsabilidades de la dirección) es: Asegurar que la gerencia comprenda su papel en la seguridad de la información y emprender acciones para garantizar que todo el personal conozca y cumpla sus responsabilidades."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.4?",
+    "ground_truth": "El control 5.4 (Responsabilidades de la dirección) se implementa de la siguiente manera: La gerencia debe asegurar que el personal: esté informado sobre sus roles antes de acceder a la información, cuente con lineamientos de expectativas de seguridad, tenga mandato de cumplir políticas, logre niveles apropiados de conciencia, y cuente con recursos para implementar controles de seguridad."
+  },
+  {
+    "question": "¿Qué es el control 5.5 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.5, 'Contacto con las autoridades', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. La organización debe establecer y mantener contacto con las autoridades pertinentes."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.5?",
+    "ground_truth": "El objetivo del control 5.5 (Contacto con las autoridades) es: Garantizar que se produzca un flujo de información adecuado con respecto a la seguridad de la información entre la organización y las autoridades legales, reguladoras y de supervisión pertinentes."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.5?",
+    "ground_truth": "El control 5.5 (Contacto con las autoridades) se implementa de la siguiente manera: La organización debe especificar cuándo y por quién se debe contactar a las autoridades (fuerzas del orden, organismos reguladores, autoridades de supervisión) y cómo informar oportunamente los incidentes de seguridad de la información identificados."
+  },
+  {
+    "question": "¿Qué es el control 5.6 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.6, 'Contacto con grupos de interés especial', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. La organización debe establecer y mantener contacto con grupos de interés especial u otros foros especializados en seguridad y asociaciones profesionales."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.6?",
+    "ground_truth": "El objetivo del control 5.6 (Contacto con grupos de interés especial) es: Garantizar que se produzca un flujo adecuado de información con respecto a la seguridad de la información."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.6?",
+    "ground_truth": "El control 5.6 (Contacto con grupos de interés especial) se implementa de la siguiente manera: La membresía en grupos o foros de interés especial debe considerarse para: mejorar el conocimiento de mejores prácticas, mantenerse actualizado sobre información de seguridad relevante, recibir alertas sobre ataques y vulnerabilidades, obtener acceso a asesoramiento especializado y compartir información sobre nuevas tecnologías y amenazas."
+  },
+  {
+    "question": "¿Qué es el control 5.7 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.7, 'Inteligencia de amenazas', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. La información relacionada con las amenazas a la seguridad de la información debe recopilarse y analizarse para generar información sobre amenazas."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.7?",
+    "ground_truth": "El objetivo del control 5.7 (Inteligencia de amenazas) es: Proporcionar conciencia del entorno de amenazas de la organización para que se puedan tomar las medidas de mitigación adecuadas."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.7?",
+    "ground_truth": "El control 5.7 (Inteligencia de amenazas) se implementa de la siguiente manera: La inteligencia de amenazas debe cubrir tres capas: estratégica (panorama de amenazas de alto nivel), táctica (metodologías y herramientas del atacante) y operativa (detalles sobre ataques específicos). Debe ser relevante, perspicaz, contextual y procesable."
+  },
+  {
+    "question": "¿Qué es el control 5.8 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.8, 'Seguridad de la información en la gestión de proyectos', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. La seguridad de la información debe integrarse en la gestión de proyectos."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.8?",
+    "ground_truth": "El objetivo del control 5.8 (Seguridad de la información en la gestión de proyectos) es: Garantizar que los riesgos de seguridad de la información relacionados con proyectos y entregables se aborden de manera efectiva en la gestión de proyectos a lo largo del ciclo de vida del proyecto."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.8?",
+    "ground_truth": "El control 5.8 (Seguridad de la información en la gestión de proyectos) se implementa de la siguiente manera: La gestión de proyectos debe exigir que: los riesgos de seguridad se evalúen periódicamente, los requisitos de seguridad se aborden en etapas tempranas, los riesgos asociados con la ejecución del proyecto se consideren, y se revise el progreso en el tratamiento de riesgos."
+  },
+  {
+    "question": "¿Qué es el control 5.9 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.9, 'Inventario de información y otros activos asociados', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. Se debe desarrollar y mantener un inventario de información y otros activos asociados, incluidos los propietarios."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.9?",
+    "ground_truth": "El objetivo del control 5.9 (Inventario de información y otros activos asociados) es: Identificar la información de la organización y otros activos asociados con el fin de preservar su seguridad de la información y asignar la propiedad adecuada."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.9?",
+    "ground_truth": "El control 5.9 (Inventario de información y otros activos asociados) se implementa de la siguiente manera: La organización debe identificar su información y otros activos asociados y determinar su importancia en términos de seguridad. El inventario debe ser preciso, actualizado, consistente y alineado con otros inventarios. Cada activo debe tener un propietario asignado."
+  },
+  {
+    "question": "¿Qué es el control 5.10 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.10, 'Uso aceptable de la información y otros activos asociados', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. Deben identificarse, documentarse e implementarse reglas para el uso aceptable y procedimientos para el manejo de la información y otros activos asociados."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.10?",
+    "ground_truth": "El objetivo del control 5.10 (Uso aceptable de la información y otros activos asociados) es: Garantizar que la información y otros activos asociados se protejan, utilicen y manejen adecuadamente."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.10?",
+    "ground_truth": "El control 5.10 (Uso aceptable de la información y otros activos asociados) se implementa de la siguiente manera: La organización debe establecer una política específica sobre el uso aceptable que defina: comportamientos esperados e inaceptables, uso permitido y prohibido de información y activos, y las actividades de seguimiento. Los procedimientos deben cubrir el ciclo de vida completo de la información."
+  },
+  {
+    "question": "¿Qué es el control 5.11 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.11, 'Devolución de bienes', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. El personal y otras partes interesadas, según corresponda, deben devolver todos los activos de la organización que estén en su poder al cambiar o terminar su empleo, contrato o acuerdo."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.11?",
+    "ground_truth": "El objetivo del control 5.11 (Devolución de bienes) es: Proteger los activos de la organización como parte del proceso de cambio o terminación de empleo, contrato o acuerdo."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.11?",
+    "ground_truth": "El control 5.11 (Devolución de bienes) se implementa de la siguiente manera: El proceso de terminación debe incluir la devolución de: dispositivos de punto final de usuario, dispositivos portátiles de almacenamiento, equipo especializado, hardware de autenticación (llaves, tokens, tarjetas inteligentes) y copias físicas de la información."
+  },
+  {
+    "question": "¿Qué es el control 5.12 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.12, 'Clasificación de la información', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. La información debe clasificarse de acuerdo con las necesidades de seguridad de la información de la organización en función de la confidencialidad, la integridad, la disponibilidad y los requisitos pertinentes de las partes interesadas."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.12?",
+    "ground_truth": "El objetivo del control 5.12 (Clasificación de la información) es: Asegurar la identificación y comprensión de las necesidades de protección de la información de acuerdo con su importancia para la organización."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.12?",
+    "ground_truth": "El control 5.12 (Clasificación de la información) se implementa de la siguiente manera: La organización debe establecer un esquema de clasificación con niveles claramente definidos. Los propietarios de la información son responsables de su clasificación. El esquema debe estar alineado con la política de control de acceso y ser consistente en toda la organización."
+  },
+  {
+    "question": "¿Qué es el control 5.13 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.13, 'Etiquetado de la información', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. Se debe desarrollar e implementar un conjunto apropiado de procedimientos para el etiquetado de la información de acuerdo con el esquema de clasificación de la información adoptado por la organización."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.13?",
+    "ground_truth": "El objetivo del control 5.13 (Etiquetado de la información) es: Facilitar la comunicación de la clasificación de la información y apoyar la automatización del procesamiento y la gestión de la información."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.13?",
+    "ground_truth": "El control 5.13 (Etiquetado de la información) se implementa de la siguiente manera: Los procedimientos de etiquetado deben cubrir todos los formatos. Las técnicas incluyen: etiquetas físicas, encabezados y pies de página, metadatos, marcas de agua y sellos. La información digital debe utilizar metadatos para identificación y gestión."
+  },
+  {
+    "question": "¿Qué es el control 5.14 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.14, 'Transferencia de información', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. Deben existir reglas, procedimientos o acuerdos de transferencia de información para todos los tipos de instalaciones de transferencia dentro de la organización y entre la organización y otras partes."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.14?",
+    "ground_truth": "El objetivo del control 5.14 (Transferencia de información) es: Mantener la seguridad de la información transferida dentro de una organización y con cualquier parte externa interesada."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.14?",
+    "ground_truth": "El control 5.14 (Transferencia de información) se implementa de la siguiente manera: Las reglas deben cubrir transferencias electrónicas, de medios físicos y verbales. Deben incluir controles contra intercepción y acceso no autorizado, garantía de trazabilidad y no repudio, responsabilidades ante incidentes y uso de etiquetado acordado para información sensible."
+  },
+  {
+    "question": "¿Qué es el control 5.15 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.15, 'Control de acceso', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. Las reglas para controlar el acceso físico y lógico a la información y otros activos asociados deben establecerse e implementarse en función de los requisitos comerciales y de seguridad de la información."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.15?",
+    "ground_truth": "El objetivo del control 5.15 (Control de acceso) es: Garantizar el acceso autorizado y evitar el acceso no autorizado a la información y otros activos asociados."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.15?",
+    "ground_truth": "El control 5.15 (Control de acceso) se implementa de la siguiente manera: Las reglas de control de acceso deben implementarse considerando: qué entidades requieren qué tipo de acceso, seguridad de aplicaciones, acceso físico, diseminación y autorización de información, restricciones de acceso privilegiado, y segregación de funciones."
+  },
+  {
+    "question": "¿Qué es el control 5.16 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.16, 'Gestión de identidad', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. Debe gestionarse el ciclo de vida completo de las identidades."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.16?",
+    "ground_truth": "El objetivo del control 5.16 (Gestión de identidad) es: Permitir la identificación única de personas y sistemas que acceden a la información de la organización y otros activos asociados y permitir la asignación adecuada de derechos de acceso."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.16?",
+    "ground_truth": "El control 5.16 (Gestión de identidad) se implementa de la siguiente manera: Los procesos de gestión de identidad deben garantizar que: cada identidad se vincule a una sola persona, las identidades compartidas se documenten y aprueben, las identidades no humanas tengan supervisión independiente, las identidades se inhabiliten oportunamente cuando ya no son necesarias, y se eviten identidades duplicadas."
+  },
+  {
+    "question": "¿Qué es el control 5.17 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.17, 'Información de autenticación', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. La asignación y gestión de la información de autenticación debe controlarse mediante un proceso de gestión, incluido el asesoramiento al personal sobre el manejo adecuado de la información de autenticación."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.17?",
+    "ground_truth": "El objetivo del control 5.17 (Información de autenticación) es: Garantizar la autenticación adecuada de la entidad y evitar fallas en los procesos de autenticación."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.17?",
+    "ground_truth": "El control 5.17 (Información de autenticación) se implementa de la siguiente manera: El proceso debe garantizar que: las contraseñas temporales no se puedan adivinar, se verifique la identidad del usuario antes de proporcionar credenciales, la información de autenticación se transmita de forma segura, y los sistemas de gestión de contraseñas apliquen contraseñas seguras y eviten la reutilización."
+  },
+  {
+    "question": "¿Qué es el control 5.18 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.18, 'Derechos de acceso', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. Los derechos de acceso a la información y otros activos asociados deben proporcionarse, revisarse, modificarse y eliminarse de acuerdo con la política y las reglas de control de acceso específicas del tema de la organización."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.18?",
+    "ground_truth": "El objetivo del control 5.18 (Derechos de acceso) es: Garantizar que el acceso a la información y otros activos asociados se defina y autorice de acuerdo con los requisitos comerciales."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.18?",
+    "ground_truth": "El control 5.18 (Derechos de acceso) se implementa de la siguiente manera: El proceso de aprovisionamiento debe incluir: autorización del propietario del activo, consideración de requisitos comerciales y segregación de funciones, garantía de eliminación oportuna de derechos cuando ya no se necesiten, y revisión periódica de derechos de acceso."
+  },
+  {
+    "question": "¿Qué es el control 5.19 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.19, 'Seguridad de la información en las relaciones con los proveedores', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. Deben definirse e implementarse procesos y procedimientos para gestionar los riesgos de seguridad de la información asociados con el uso de los productos o servicios del proveedor."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.19?",
+    "ground_truth": "El objetivo del control 5.19 (Seguridad de la información en las relaciones con los proveedores) es: Mantener un nivel acordado de seguridad de la información en las relaciones con los proveedores."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.19?",
+    "ground_truth": "El control 5.19 (Seguridad de la información en las relaciones con los proveedores) se implementa de la siguiente manera: Los procesos deben incluir: identificación y documentación de tipos de proveedores, evaluación y selección de proveedores según sensibilidad, definición de información y activos a los que los proveedores pueden acceder, y monitoreo del cumplimiento de requisitos de seguridad."
+  },
+  {
+    "question": "¿Qué es el control 5.20 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.20, 'Abordar la seguridad de la información en los acuerdos con proveedores', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. Los requisitos de seguridad de la información pertinentes deben establecerse y acordarse con cada proveedor en función del tipo de relación con el proveedor."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.20?",
+    "ground_truth": "El objetivo del control 5.20 (Abordar la seguridad de la información en los acuerdos con proveedores) es: Mantener un nivel acordado de seguridad de la información en las relaciones con los proveedores."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.20?",
+    "ground_truth": "El control 5.20 (Abordar la seguridad de la información en los acuerdos con proveedores) se implementa de la siguiente manera: Los acuerdos con proveedores deben incluir: descripción de la información proporcionada, clasificación, requisitos legales, obligaciones de implementar controles, reglas de uso aceptable, requisitos de gestión de incidentes, derecho a auditoría, y provisiones para la terminación del acuerdo."
+  },
+  {
+    "question": "¿Qué es el control 5.21 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.21, 'Gestión de la seguridad de la información en la cadena de suministro de las TIC', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. Deben definirse e implementarse procesos y procedimientos para gestionar los riesgos de seguridad de la información asociados con la cadena de suministro de productos y servicios de TIC."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.21?",
+    "ground_truth": "El objetivo del control 5.21 (Gestión de la seguridad de la información en la cadena de suministro de las TIC) es: Mantener un nivel acordado de seguridad de la información en las relaciones con los proveedores."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.21?",
+    "ground_truth": "El control 5.21 (Gestión de la seguridad de la información en la cadena de suministro de las TIC) se implementa de la siguiente manera: Se deben definir requisitos de seguridad para adquisición de productos TIC, exigir que los proveedores propaguen requisitos de seguridad en la cadena de suministro, monitorear que los productos entregados cumplan los requisitos, e identificar componentes críticos para mayor atención."
+  },
+  {
+    "question": "¿Qué es el control 5.22 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.22, 'Seguimiento, revisión y gestión de cambios de servicios de proveedores', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. La organización debe monitorear, revisar, evaluar y gestionar periódicamente los cambios en las prácticas de seguridad de la información del proveedor y la prestación de servicios."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.22?",
+    "ground_truth": "El objetivo del control 5.22 (Seguimiento, revisión y gestión de cambios de servicios de proveedores) es: Mantener un nivel acordado de seguridad de la información y prestación de servicios en línea con los acuerdos con los proveedores."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.22?",
+    "ground_truth": "El control 5.22 (Seguimiento, revisión y gestión de cambios de servicios de proveedores) se implementa de la siguiente manera: El proceso debe incluir: monitoreo de niveles de desempeño, control de cambios realizados por proveedores, revisión de informes de servicio, realización de auditorías, gestión de incidentes de seguridad identificados en proveedores, e identificación y gestión de vulnerabilidades."
+  },
+  {
+    "question": "¿Qué es el control 5.23 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.23, 'Seguridad de la información para el uso de servicios en la nube', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. Los procesos de adquisición, uso, gestión y salida de los servicios en la nube deben establecerse de acuerdo con los requisitos de seguridad de la información de la organización."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.23?",
+    "ground_truth": "El objetivo del control 5.23 (Seguridad de la información para el uso de servicios en la nube) es: Especificar y administrar la seguridad de la información para el uso de servicios en la nube."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.23?",
+    "ground_truth": "El control 5.23 (Seguridad de la información para el uso de servicios en la nube) se implementa de la siguiente manera: La organización debe definir: requisitos de seguridad para servicios en la nube, criterios de selección del servicio, roles y responsabilidades, controles gestionados por el proveedor y por la organización, procedimientos para incidentes, y estrategias de salida."
+  },
+  {
+    "question": "¿Qué es el control 5.24 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.24, 'Planificación y preparación de la gestión de incidentes de seguridad de la información', pertenece al dominio de Controles Organizacionales y es de tipo Correctivo. La organización debe planificar y prepararse para la gestión de incidentes de seguridad de la información definiendo, estableciendo y comunicando procesos, funciones y responsabilidades de gestión de incidentes."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.24?",
+    "ground_truth": "El objetivo del control 5.24 (Planificación y preparación de la gestión de incidentes de seguridad de la información) es: Garantizar una respuesta rápida, eficaz, coherente y ordenada a los incidentes de seguridad de la información, incluida la comunicación sobre eventos de seguridad de la información."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.24?",
+    "ground_truth": "El control 5.24 (Planificación y preparación de la gestión de incidentes de seguridad de la información) se implementa de la siguiente manera: Se debe establecer un método común para reportar eventos, un proceso de gestión de incidentes para administrar, documentar y coordinar partes interesadas, un proceso de respuesta para evaluar y aprender de incidentes, y planes de continuidad asociados."
+  },
+  {
+    "question": "¿Qué es el control 5.25 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.25, 'Evaluación y decisión sobre eventos de seguridad de la información', pertenece al dominio de Controles Organizacionales y es de tipo Detective. La organización debería evaluar los eventos de seguridad de la información y decidir si se clasificarán como incidentes de seguridad de la información."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.25?",
+    "ground_truth": "El objetivo del control 5.25 (Evaluación y decisión sobre eventos de seguridad de la información) es: Asegurar una categorización y priorización efectiva de los eventos de seguridad de la información."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.25?",
+    "ground_truth": "El control 5.25 (Evaluación y decisión sobre eventos de seguridad de la información) se implementa de la siguiente manera: Se debe acordar un esquema de categorización y priorización de incidentes que incluya criterios para categorizar eventos como incidentes. El punto de contacto debe evaluar cada evento usando el esquema acordado. Los resultados de la evaluación deben registrarse."
+  },
+  {
+    "question": "¿Qué es el control 5.26 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.26, 'Respuesta a incidentes de seguridad de la información', pertenece al dominio de Controles Organizacionales y es de tipo Correctivo. Se debe responder a los incidentes de seguridad de la información de acuerdo con los procedimientos documentados."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.26?",
+    "ground_truth": "El objetivo del control 5.26 (Respuesta a incidentes de seguridad de la información) es: Garantizar una respuesta eficiente y eficaz a los incidentes de seguridad de la información."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.26?",
+    "ground_truth": "El control 5.26 (Respuesta a incidentes de seguridad de la información) se implementa de la siguiente manera: La respuesta debe incluir: contención de los sistemas afectados, recopilación de evidencia, escalamiento cuando sea necesario, registro de todas las actividades de respuesta, comunicación a partes interesadas, coordinación con partes internas y externas, cierre formal del incidente y análisis post-incidente."
+  },
+  {
+    "question": "¿Qué es el control 5.27 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.27, 'Aprendiendo de los incidentes de seguridad de la información', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. El conocimiento obtenido de los incidentes de seguridad de la información debe utilizarse para fortalecer y mejorar los controles de seguridad de la información."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.27?",
+    "ground_truth": "El objetivo del control 5.27 (Aprendiendo de los incidentes de seguridad de la información) es: Reducir la probabilidad o las consecuencias de futuros incidentes."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.27?",
+    "ground_truth": "El control 5.27 (Aprendiendo de los incidentes de seguridad de la información) se implementa de la siguiente manera: La información de incidentes debe usarse para: mejorar el plan de gestión de incidentes, identificar incidentes recurrentes y sus causas, determinar controles adicionales para reducir la probabilidad de incidentes similares, y mejorar la concienciación y formación de usuarios."
+  },
+  {
+    "question": "¿Qué es el control 5.28 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.28, 'Recopilación de pruebas', pertenece al dominio de Controles Organizacionales y es de tipo Correctivo. La organización debe establecer e implementar procedimientos para la identificación, recopilación, adquisición y preservación de evidencia relacionada con eventos de seguridad de la información."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.28?",
+    "ground_truth": "El objetivo del control 5.28 (Recopilación de pruebas) es: Asegurar una gestión consistente y eficaz de la evidencia relacionada con incidentes de seguridad de la información para efectos de acciones disciplinarias y legales."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.28?",
+    "ground_truth": "El control 5.28 (Recopilación de pruebas) se implementa de la siguiente manera: Los procedimientos deben proporcionar instrucciones para la identificación, recopilación, adquisición y conservación de pruebas de acuerdo con diferentes tipos de medios y dispositivos. Se debe demostrar que los registros están completos, no manipulados, y que los sistemas funcionaban correctamente cuando se registraron."
+  },
+  {
+    "question": "¿Qué es el control 5.29 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.29, 'Seguridad de la información durante la interrupción', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. La organización debe planificar cómo mantener la seguridad de la información en un nivel adecuado durante la interrupción."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.29?",
+    "ground_truth": "El objetivo del control 5.29 (Seguridad de la información durante la interrupción) es: Proteger la información y otros activos asociados durante la interrupción."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.29?",
+    "ground_truth": "El control 5.29 (Seguridad de la información durante la interrupción) se implementa de la siguiente manera: La organización debe implementar y mantener: controles de seguridad dentro de planes de continuidad del negocio y TIC, procesos para mantener controles de seguridad durante la interrupción, y controles de compensación para aquellos que no se pueden mantener durante la interrupción."
+  },
+  {
+    "question": "¿Qué es el control 5.30 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.30, 'Preparación de las TIC para la continuidad del negocio', pertenece al dominio de Controles Organizacionales y es de tipo Correctivo. La preparación de las TIC debe planificarse, implementarse, mantenerse y probarse en función de los objetivos de continuidad del negocio y los requisitos de continuidad de las TIC."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.30?",
+    "ground_truth": "El objetivo del control 5.30 (Preparación de las TIC para la continuidad del negocio) es: Garantizar la disponibilidad de la información de la organización y otros activos asociados durante la interrupción."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.30?",
+    "ground_truth": "El control 5.30 (Preparación de las TIC para la continuidad del negocio) se implementa de la siguiente manera: Los planes de continuidad de TIC deben incluir: especificaciones de rendimiento y capacidad para los requisitos de continuidad del negocio, RTO de cada servicio TIC priorizado y procedimientos para su restauración, y RPO de los recursos TIC priorizados."
+  },
+  {
+    "question": "¿Qué es el control 5.31 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.31, 'Requisitos legales, estatutarios, reglamentarios y contractuales', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. Los requisitos legales, estatutarios, reglamentarios y contractuales relevantes para la seguridad de la información y el enfoque de la organización para cumplir con estos requisitos deben identificarse, documentarse y mantenerse actualizados."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.31?",
+    "ground_truth": "El objetivo del control 5.31 (Requisitos legales, estatutarios, reglamentarios y contractuales) es: Asegurar el cumplimiento de los requisitos legales, estatutarios, reglamentarios y contractuales relacionados con la seguridad de la información."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.31?",
+    "ground_truth": "El control 5.31 (Requisitos legales, estatutarios, reglamentarios y contractuales) se implementa de la siguiente manera: La organización debe identificar toda la legislación pertinente, considerar el cumplimiento en todos los países relevantes, revisar periódicamente la legislación, y definir procesos y responsabilidades individuales para cumplir con estos requisitos. En criptografía se deben considerar restricciones de importación/exportación."
+  },
+  {
+    "question": "¿Qué es el control 5.32 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.32, 'Derechos de propiedad intelectual', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. La organización debe implementar procedimientos apropiados para proteger los derechos de propiedad intelectual."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.32?",
+    "ground_truth": "El objetivo del control 5.32 (Derechos de propiedad intelectual) es: Garantizar el cumplimiento de los requisitos legales, estatutarios, reglamentarios y contractuales relacionados con los derechos de propiedad intelectual y el uso de productos patentados."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.32?",
+    "ground_truth": "El control 5.32 (Derechos de propiedad intelectual) se implementa de la siguiente manera: Se deben establecer: política específica sobre protección de derechos de propiedad intelectual, procedimientos para cumplimiento que definan el uso conforme de software, adquisición de software solo de fuentes acreditadas, registros de activos con requisitos de propiedad intelectual, y revisiones para garantizar instalación solo de software autorizado."
+  },
+  {
+    "question": "¿Qué es el control 5.33 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.33, 'Protección de registros', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. Los registros deben protegerse contra pérdida, destrucción, falsificación, acceso no autorizado y publicación no autorizada."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.33?",
+    "ground_truth": "El objetivo del control 5.33 (Protección de registros) es: Garantizar el cumplimiento de los requisitos legales, estatutarios, reglamentarios y contractuales, así como las expectativas de la comunidad o la sociedad relacionadas con la protección y disponibilidad de los registros."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.33?",
+    "ground_truth": "El control 5.33 (Protección de registros) se implementa de la siguiente manera: La organización debe emitir lineamientos sobre almacenamiento, manejo de cadena de custodia y eliminación de registros. Se debe elaborar un calendario de conservación con períodos de retención definidos. Los sistemas de almacenamiento deben elegirse de manera que los registros puedan recuperarse en un tiempo y formato aceptables."
+  },
+  {
+    "question": "¿Qué es el control 5.34 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.34, 'Privacidad y protección de PII', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. La organización debe identificar y cumplir los requisitos relacionados con la preservación de la privacidad y la protección de la PII de acuerdo con las leyes y reglamentos aplicables y los requisitos contractuales."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.34?",
+    "ground_truth": "El objetivo del control 5.34 (Privacidad y protección de PII) es: Garantizar el cumplimiento de los requisitos legales, estatutarios, reglamentarios y contractuales relacionados con los aspectos de seguridad de la información de la protección de PII."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.34?",
+    "ground_truth": "El control 5.34 (Privacidad y protección de PII) se implementa de la siguiente manera: Se debe establecer una política de privacidad y protección de PII, desarrollar procedimientos para la preservación de la privacidad, designar un oficial de privacidad para orientar al personal, implementar medidas técnicas y organizativas apropiadas, y aplicar los requisitos a proveedores que procesan PII."
+  },
+  {
+    "question": "¿Qué es el control 5.35 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.35, 'Revisión independiente de la seguridad de la información', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. El enfoque de la organización para gestionar la seguridad de la información y su implementación, incluidas las personas, los procesos y las tecnologías, deben revisarse de forma independiente a intervalos planificados o cuando se produzcan cambios significativos."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.35?",
+    "ground_truth": "El objetivo del control 5.35 (Revisión independiente de la seguridad de la información) es: Asegurar la idoneidad, adecuación y eficacia continuas del enfoque de la organización para gestionar y implementar la seguridad de la información."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.35?",
+    "ground_truth": "El control 5.35 (Revisión independiente de la seguridad de la información) se implementa de la siguiente manera: Las revisiones independientes deben ser realizadas por auditores internos, gerencia, o una tercera parte externa. Los resultados deben documentarse y reportarse a la gerencia correspondiente. Los hallazgos deben gestionarse con planes de acción correctiva."
+  },
+  {
+    "question": "¿Qué es el control 5.36 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.36, 'Cumplimiento de políticas, normas y estándares de seguridad de la información', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. El cumplimiento de la política de seguridad de la información, las políticas específicas del tema y las normas de la organización debe revisarse periódicamente."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.36?",
+    "ground_truth": "El objetivo del control 5.36 (Cumplimiento de políticas, normas y estándares de seguridad de la información) es: Asegurar que la seguridad de la información se implemente y opere de acuerdo con la política de seguridad de la información, las políticas específicas del tema, las normas y los estándares de la organización."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.36?",
+    "ground_truth": "El control 5.36 (Cumplimiento de políticas, normas y estándares de seguridad de la información) se implementa de la siguiente manera: Los gerentes y propietarios de la información deben realizar revisiones periódicas de cumplimiento dentro de sus áreas de responsabilidad. Las herramientas de evaluación automatizada deben utilizarse cuando sea posible. Los resultados de las revisiones deben documentarse y las no conformidades deben abordarse."
+  },
+  {
+    "question": "¿Qué es el control 5.37 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 5.37, 'Procedimientos operativos documentados', pertenece al dominio de Controles Organizacionales y es de tipo Preventivo. Los procedimientos operativos para las instalaciones de procesamiento de información deben documentarse y ponerse a disposición del personal que los necesite."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 5.37?",
+    "ground_truth": "El objetivo del control 5.37 (Procedimientos operativos documentados) es: Asegurar el correcto y seguro funcionamiento de las instalaciones de procesamiento de información."
+  },
+  {
+    "question": "¿Cómo se implementa el control 5.37?",
+    "ground_truth": "El control 5.37 (Procedimientos operativos documentados) se implementa de la siguiente manera: Los procedimientos documentados deben prepararse para las actividades del sistema asociadas con las instalaciones de procesamiento de información y comunicación. Los procedimientos deben abordar: arranque y cierre de computadoras, copia de seguridad, mantenimiento de equipos, tratamiento de errores y gestión de registros."
+  },
+  {
+    "question": "¿Qué es el control 6.1 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 6.1, 'Cribado (Selección de personal)', pertenece al dominio de Controles de Personas y es de tipo Preventivo. Los controles de verificación de antecedentes de todos los candidatos para convertirse en personal deben llevarse a cabo antes de unirse a la organización y de manera continua, teniendo en cuenta las leyes, regulaciones y ética aplicables, y deben ser proporcionales a los requisitos comerciales, la clasificación de la información a la que se accede y los riesgos percibidos."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 6.1?",
+    "ground_truth": "El objetivo del control 6.1 (Cribado (Selección de personal)) es: Asegurar que todo el personal sea elegible y adecuado para las funciones para las que se le considera y siga siendo elegible y adecuado durante su empleo."
+  },
+  {
+    "question": "¿Cómo se implementa el control 6.1?",
+    "ground_truth": "El control 6.1 (Cribado (Selección de personal)) se implementa de la siguiente manera: La verificación debe incluir: referencias satisfactorias, verificación de currículum, confirmación de calificaciones, verificación de identidad independiente, y para roles críticos, verificación de crédito o antecedentes penales. El proceso debe cumplir con la legislación de privacidad aplicable."
+  },
+  {
+    "question": "¿Qué es el control 6.2 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 6.2, 'Términos y condiciones de empleo', pertenece al dominio de Controles de Personas y es de tipo Preventivo. Los acuerdos contractuales de empleo deben establecer las responsabilidades del personal y de la organización para la seguridad de la información."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 6.2?",
+    "ground_truth": "El objetivo del control 6.2 (Términos y condiciones de empleo) es: Asegurar que el personal comprenda sus responsabilidades de seguridad de la información para las funciones para las que se le considera."
+  },
+  {
+    "question": "¿Cómo se implementa el control 6.2?",
+    "ground_truth": "El control 6.2 (Términos y condiciones de empleo) se implementa de la siguiente manera: Los contratos deben incluir: acuerdos de confidencialidad, responsabilidades legales (derechos de autor, protección de datos), responsabilidades de clasificación y gestión de información, responsabilidades para el tratamiento de información de partes interesadas, y acciones ante incumplimiento de requisitos de seguridad."
+  },
+  {
+    "question": "¿Qué es el control 6.3 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 6.3, 'Concientización, educación y capacitación en seguridad de la información', pertenece al dominio de Controles de Personas y es de tipo Preventivo. El personal de la organización y las partes interesadas relevantes deben recibir la conciencia, educación y capacitación adecuadas sobre la seguridad de la información y actualizaciones regulares de la política de seguridad de la información."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 6.3?",
+    "ground_truth": "El objetivo del control 6.3 (Concientización, educación y capacitación en seguridad de la información) es: Asegurar que el personal y las partes interesadas relevantes conozcan y cumplan con sus responsabilidades de seguridad de la información."
+  },
+  {
+    "question": "¿Cómo se implementa el control 6.3?",
+    "ground_truth": "El control 6.3 (Concientización, educación y capacitación en seguridad de la información) se implementa de la siguiente manera: Se debe establecer un programa de concienciación con: actividades periódicas sobre mejores prácticas, comprensión del entorno de amenazas, procedimientos básicos de seguridad, y puntos de contacto para obtener información adicional. Para equipos técnicos, planes de capacitación en habilidades específicas de seguridad."
+  },
+  {
+    "question": "¿Qué es el control 6.4 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 6.4, 'Proceso disciplinario', pertenece al dominio de Controles de Personas y es de tipo Preventivo. Se debe formalizar y comunicar un proceso disciplinario para tomar acciones contra el personal y otras partes interesadas relevantes que hayan cometido una violación de la política de seguridad de la información."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 6.4?",
+    "ground_truth": "El objetivo del control 6.4 (Proceso disciplinario) es: Asegurar que el personal y otras partes interesadas relevantes entiendan las consecuencias de la violación de la política de seguridad de la información."
+  },
+  {
+    "question": "¿Cómo se implementa el control 6.4?",
+    "ground_truth": "El control 6.4 (Proceso disciplinario) se implementa de la siguiente manera: El proceso disciplinario formal debe prever una respuesta graduada que tenga en cuenta: la naturaleza y gravedad del incumplimiento, si fue intencional o no, si es la primera o una reiterada infracción, y si el infractor fue debidamente capacitado. Debe ser proporcional y cumplir con requisitos legales."
+  },
+  {
+    "question": "¿Qué es el control 6.5 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 6.5, 'Responsabilidades después de la terminación o cambio de empleo', pertenece al dominio de Controles de Personas y es de tipo Preventivo. Las responsabilidades y deberes de seguridad de la información que siguen siendo válidos después de la terminación o el cambio de empleo deben definirse, aplicarse y comunicarse al personal pertinente y otras partes interesadas."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 6.5?",
+    "ground_truth": "El objetivo del control 6.5 (Responsabilidades después de la terminación o cambio de empleo) es: Proteger los intereses de la organización como parte del proceso de cambio o terminación de empleo o contratos."
+  },
+  {
+    "question": "¿Cómo se implementa el control 6.5?",
+    "ground_truth": "El control 6.5 (Responsabilidades después de la terminación o cambio de empleo) se implementa de la siguiente manera: El proceso de terminación debe incluir: responsabilidades de confidencialidad continuas, transferencia de conocimientos sobre operaciones en curso, restricción de copia no autorizada de información, y comunicación de cambios a contactos relevantes. Los cambios de empleo se tratan como terminación del rol actual."
+  },
+  {
+    "question": "¿Qué es el control 6.6 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 6.6, 'Acuerdos de confidencialidad o no divulgación', pertenece al dominio de Controles de Personas y es de tipo Preventivo. Los acuerdos de confidencialidad o no divulgación que reflejen las necesidades de la organización para la protección de la información deben ser identificados, documentados, revisados regularmente y firmados por el personal y otras partes interesadas relevantes."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 6.6?",
+    "ground_truth": "El objetivo del control 6.6 (Acuerdos de confidencialidad o no divulgación) es: Mantener la confidencialidad de la información accesible por el personal o partes externas."
+  },
+  {
+    "question": "¿Cómo se implementa el control 6.6?",
+    "ground_truth": "El control 6.6 (Acuerdos de confidencialidad o no divulgación) se implementa de la siguiente manera: Los acuerdos de confidencialidad deben abordar: la definición de información a proteger, la duración del acuerdo, las responsabilidades de los signatarios para evitar divulgación no autorizada, la propiedad de la información y la propiedad intelectual, y las acciones previstas ante incumplimiento."
+  },
+  {
+    "question": "¿Qué es el control 6.7 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 6.7, 'Trabajo a distancia', pertenece al dominio de Controles de Personas y es de tipo Preventivo. Se deben implementar medidas de seguridad cuando el personal trabaja de forma remota para proteger la información a la que se accede, procesa o almacena fuera de las instalaciones de la organización."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 6.7?",
+    "ground_truth": "El objetivo del control 6.7 (Trabajo a distancia) es: Garantizar la seguridad de la información cuando el personal está trabajando de forma remota."
+  },
+  {
+    "question": "¿Cómo se implementa el control 6.7?",
+    "ground_truth": "El control 6.7 (Trabajo a distancia) se implementa de la siguiente manera: Las organizaciones que permiten trabajo remoto deben considerar: seguridad física del lugar de trabajo remoto, mecanismos de seguridad para el entorno físico remoto, requisitos de seguridad de las comunicaciones, uso de acceso remoto (VPN, escritorio virtual), y amenazas de acceso no autorizado de terceros en el entorno doméstico."
+  },
+  {
+    "question": "¿Qué es el control 6.8 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 6.8, 'Reporte de eventos de seguridad de la información', pertenece al dominio de Controles de Personas y es de tipo Detective. La organización debe proporcionar un mecanismo para que el personal informe eventos de seguridad de la información observados o sospechados a través de los canales apropiados de manera oportuna."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 6.8?",
+    "ground_truth": "El objetivo del control 6.8 (Reporte de eventos de seguridad de la información) es: Respaldar la notificación oportuna, coherente y eficaz de los eventos de seguridad de la información que pueden ser identificados por el personal."
+  },
+  {
+    "question": "¿Cómo se implementa el control 6.8?",
+    "ground_truth": "El control 6.8 (Reporte de eventos de seguridad de la información) se implementa de la siguiente manera: Todo el personal debe conocer su responsabilidad de informar eventos de seguridad lo más rápido posible. El mecanismo de reporte debe ser fácil y accesible. Los eventos que deben reportarse incluyen: controles ineficaces, errores humanos, incumplimientos de políticas, comportamiento anómalo de sistemas y sospecha de infección por malware."
+  },
+  {
+    "question": "¿Qué es el control 7.1 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 7.1, 'Perímetros de seguridad física', pertenece al dominio de Controles Físicos y es de tipo Preventivo. Los perímetros de seguridad deben definirse y utilizarse para proteger las áreas que contienen información y otros activos asociados."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 7.1?",
+    "ground_truth": "El objetivo del control 7.1 (Perímetros de seguridad física) es: Evitar el acceso físico no autorizado, el daño y la interferencia a la información de la organización y otros activos asociados."
+  },
+  {
+    "question": "¿Cómo se implementa el control 7.1?",
+    "ground_truth": "El control 7.1 (Perímetros de seguridad física) se implementa de la siguiente manera: Los perímetros de seguridad física deben incluir: definición de perímetros según requisitos de seguridad, construcción físicamente sólida de paredes y puertas, alarma y monitoreo de puertas contra incendios, y múltiples barreras para áreas con diferentes requisitos de seguridad."
+  },
+  {
+    "question": "¿Qué es el control 7.2 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 7.2, 'Entrada física', pertenece al dominio de Controles Físicos y es de tipo Preventivo. Las áreas seguras deben estar protegidas por controles de entrada y puntos de acceso apropiados."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 7.2?",
+    "ground_truth": "El objetivo del control 7.2 (Entrada física) es: Garantizar que solo se produzca el acceso físico autorizado a la información de la organización y otros activos asociados."
+  },
+  {
+    "question": "¿Cómo se implementa el control 7.2?",
+    "ground_truth": "El control 7.2 (Entrada física) se implementa de la siguiente manera: Los controles de entrada deben incluir: restricción de acceso solo a personal autorizado, libro de registro o registro electrónico de accesos, mecanismos de autenticación (tarjetas de acceso, biometría, doble factor), área de recepción monitoreada, y proceso de gestión de visitantes con supervisión."
+  },
+  {
+    "question": "¿Qué es el control 7.3 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 7.3, 'Aseguramiento de oficinas, salas e instalaciones', pertenece al dominio de Controles Físicos y es de tipo Preventivo. Debe diseñarse e implementarse la seguridad física de las oficinas, salas e instalaciones."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 7.3?",
+    "ground_truth": "El objetivo del control 7.3 (Aseguramiento de oficinas, salas e instalaciones) es: Prevenir el acceso físico no autorizado, el daño y la interferencia a la información de la organización y otros activos asociados en las oficinas, salas e instalaciones."
+  },
+  {
+    "question": "¿Cómo se implementa el control 7.3?",
+    "ground_truth": "El control 7.3 (Aseguramiento de oficinas, salas e instalaciones) se implementa de la siguiente manera: Se debe considerar: ubicar instalaciones críticas lejos del acceso público, mantener edificios con indicación mínima de su propósito, configurar instalaciones para evitar que actividades confidenciales sean visibles desde el exterior, y no poner a disposición directorios que identifiquen ubicaciones de instalaciones de procesamiento."
+  },
+  {
+    "question": "¿Qué es el control 7.4 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 7.4, 'Supervisión de la seguridad física', pertenece al dominio de Controles Físicos y es de tipo Preventivo. Las instalaciones deben ser monitoreadas continuamente para detectar accesos físicos no autorizados."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 7.4?",
+    "ground_truth": "El objetivo del control 7.4 (Supervisión de la seguridad física) es: Detectar y disuadir el acceso físico no autorizado."
+  },
+  {
+    "question": "¿Cómo se implementa el control 7.4?",
+    "ground_truth": "El control 7.4 (Supervisión de la seguridad física) se implementa de la siguiente manera: El monitoreo debe incluir: sistemas de vigilancia por video (CCTV), detectores de contacto, sonido o movimiento, alarmas de intrusión, y sistemas de gestión de información de seguridad física. Los sistemas de monitoreo deben protegerse contra el acceso no autorizado."
+  },
+  {
+    "question": "¿Qué es el control 7.5 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 7.5, 'Protección contra amenazas físicas y ambientales', pertenece al dominio de Controles Físicos y es de tipo Preventivo. Se debe diseñar e implementar la protección contra amenazas físicas y ambientales, como desastres naturales y otras amenazas físicas intencionales o no intencionales a la infraestructura."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 7.5?",
+    "ground_truth": "El objetivo del control 7.5 (Protección contra amenazas físicas y ambientales) es: Prevenir o reducir las consecuencias de eventos originados por amenazas físicas y ambientales."
+  },
+  {
+    "question": "¿Cómo se implementa el control 7.5?",
+    "ground_truth": "El control 7.5 (Protección contra amenazas físicas y ambientales) se implementa de la siguiente manera: Se debe realizar una evaluación de riesgos de amenazas físicas y ambientales. Las salvaguardas deben considerar: sistemas de detección y extinción de incendios, sistemas de detección de inundaciones, protección contra sobretensiones eléctricas, e inspecciones para detectar explosivos en instalaciones críticas."
+  },
+  {
+    "question": "¿Qué es el control 7.6 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 7.6, 'Trabajar en áreas seguras', pertenece al dominio de Controles Físicos y es de tipo Preventivo. Se deben diseñar e implementar medidas de seguridad para trabajar en áreas seguras."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 7.6?",
+    "ground_truth": "El objetivo del control 7.6 (Trabajar en áreas seguras) es: Proteger la información y otros activos asociados en áreas seguras contra daños e interferencias no autorizadas por parte del personal que trabaja en estas áreas."
+  },
+  {
+    "question": "¿Cómo se implementa el control 7.6?",
+    "ground_truth": "El control 7.6 (Trabajar en áreas seguras) se implementa de la siguiente manera: Las medidas deben incluir: conciencia del personal solo según necesidad de conocer, evitar el trabajo sin supervisión en áreas seguras, cerrar físicamente e inspeccionar áreas vacantes, prohibir equipos de grabación no autorizados, y controlar el transporte y uso de dispositivos de punto final del usuario en áreas seguras."
+  },
+  {
+    "question": "¿Qué es el control 7.7 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 7.7, 'Escritorio despejado y pantalla despejada', pertenece al dominio de Controles Físicos y es de tipo Preventivo. Deben definirse y aplicarse adecuadamente reglas de escritorio limpio para documentos y medios de almacenamiento extraíbles y reglas de pantalla limpia para las instalaciones de procesamiento de información."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 7.7?",
+    "ground_truth": "El objetivo del control 7.7 (Escritorio despejado y pantalla despejada) es: Reducir los riesgos de acceso no autorizado, pérdida y daño de la información en escritorios, pantallas y en otros lugares accesibles durante y fuera del horario normal de trabajo."
+  },
+  {
+    "question": "¿Cómo se implementa el control 7.7?",
+    "ground_truth": "El control 7.7 (Escritorio despejado y pantalla despejada) se implementa de la siguiente manera: Las reglas deben incluir: guardar bajo llave información comercial sensible cuando no se requiera, proteger dispositivos de punto final cuando no estén en uso, dejar pantallas bloqueadas cuando estén desatendidas, retirar inmediatamente impresiones de impresoras compartidas, y borrar información sensible de pizarras."
+  },
+  {
+    "question": "¿Qué es el control 7.8 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 7.8, 'Ubicación y protección del equipo', pertenece al dominio de Controles Físicos y es de tipo Preventivo. El equipo debe estar ubicado de forma segura y protegida."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 7.8?",
+    "ground_truth": "El objetivo del control 7.8 (Ubicación y protección del equipo) es: Reducir los riesgos de amenazas físicas y ambientales, y de accesos y daños no autorizados."
+  },
+  {
+    "question": "¿Cómo se implementa el control 7.8?",
+    "ground_truth": "El control 7.8 (Ubicación y protección del equipo) se implementa de la siguiente manera: Se debe considerar: ubicar el equipo para minimizar el acceso innecesario, proteger instalaciones que manejan datos confidenciales para reducir el riesgo de visualización no autorizada, minimizar riesgos de amenazas físicas y ambientales, controlar el acceso al equipo, y separar instalaciones gestionadas por la organización de las de terceros."
+  },
+  {
+    "question": "¿Qué es el control 7.9 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 7.9, 'Seguridad de los activos fuera de las instalaciones', pertenece al dominio de Controles Físicos y es de tipo Preventivo. Los activos fuera del sitio deben estar protegidos."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 7.9?",
+    "ground_truth": "El objetivo del control 7.9 (Seguridad de los activos fuera de las instalaciones) es: Evitar la pérdida, el daño, el robo o el compromiso de los dispositivos externos y la interrupción de las operaciones de la organización."
+  },
+  {
+    "question": "¿Cómo se implementa el control 7.9?",
+    "ground_truth": "El control 7.9 (Seguridad de los activos fuera de las instalaciones) se implementa de la siguiente manera: Los dispositivos utilizados fuera de las instalaciones deben: no dejarse desatendidos en lugares públicos, seguir las instrucciones de los fabricantes, mantener un registro de cadena de custodia, requerir autorización para retiro de instalaciones, protegerse contra la visualización en transporte público (shoulder surfing), e implementar seguimiento de ubicación y borrado remoto."
+  },
+  {
+    "question": "¿Qué es el control 7.10 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 7.10, 'Medios de almacenamiento', pertenece al dominio de Controles Físicos y es de tipo Preventivo. Los medios de almacenamiento deben gestionarse a lo largo de su ciclo de vida de adquisición, uso, transporte y eliminación de acuerdo con el esquema de clasificación y los requisitos de manipulación de la organización."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 7.10?",
+    "ground_truth": "El objetivo del control 7.10 (Medios de almacenamiento) es: Garantizar únicamente la divulgación, modificación, eliminación o destrucción autorizada de la información en los medios de almacenamiento."
+  },
+  {
+    "question": "¿Cómo se implementa el control 7.10?",
+    "ground_truth": "El control 7.10 (Medios de almacenamiento) se implementa de la siguiente manera: Para medios extraíbles: establecer política de gestión, solicitar autorización para retiro, almacenar en entorno seguro, usar técnicas criptográficas para información confidencial, y mitigar el riesgo de degradación. Para eliminación: procedimientos para destrucción segura, desmagnetización o triturando físicamente el medio."
+  },
+  {
+    "question": "¿Qué es el control 7.11 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 7.11, 'Utilidades de apoyo', pertenece al dominio de Controles Físicos y es de tipo Preventivo. Las instalaciones de procesamiento de información deben estar protegidas contra cortes de energía y otras interrupciones causadas por fallas en los servicios públicos de apoyo."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 7.11?",
+    "ground_truth": "El objetivo del control 7.11 (Utilidades de apoyo) es: Evitar la pérdida, el daño o el compromiso de la información y otros activos asociados, o la interrupción de las operaciones de la organización debido a fallas e interrupciones de los servicios públicos de apoyo."
+  },
+  {
+    "question": "¿Cómo se implementa el control 7.11?",
+    "ground_truth": "El control 7.11 (Utilidades de apoyo) se implementa de la siguiente manera: La organización debe asegurar que el equipo de apoyo a los servicios públicos esté configurado y mantenido según especificaciones del fabricante, las empresas de servicios sean evaluadas periódicamente, el equipo se inspeccione regularmente, y las empresas de servicios tengan múltiples alimentaciones con diversas rutas físicas."
+  },
+  {
+    "question": "¿Qué es el control 7.12 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 7.12, 'Seguridad del cableado', pertenece al dominio de Controles Físicos y es de tipo Preventivo. Los cables que transportan energía, datos o servicios de información de apoyo deben protegerse contra intercepciones, interferencias o daños."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 7.12?",
+    "ground_truth": "El objetivo del control 7.12 (Seguridad del cableado) es: Evitar la pérdida, el daño, el robo o el compromiso de la información y otros activos asociados y la interrupción de las operaciones de la organización relacionadas con el cableado de energía y comunicaciones."
+  },
+  {
+    "question": "¿Cómo se implementa el control 7.12?",
+    "ground_truth": "El control 7.12 (Seguridad del cableado) se implementa de la siguiente manera: Se debe considerar: cables subterráneos o con protección alternativa, separación de cables de alimentación y comunicaciones, para sistemas sensibles instalar conductos blindados y alarmas, uso de fibra óptica, barridos técnicos periódicos, y acceso controlado a paneles de conexión."
+  },
+  {
+    "question": "¿Qué es el control 7.13 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 7.13, 'Mantenimiento de equipos', pertenece al dominio de Controles Físicos y es de tipo Preventivo. El equipo debe mantenerse correctamente para garantizar la disponibilidad, integridad y confidencialidad de la información."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 7.13?",
+    "ground_truth": "El objetivo del control 7.13 (Mantenimiento de equipos) es: Evitar la pérdida, daño, robo o compromiso de la información y otros activos asociados y la interrupción de las operaciones de la organización causada por la falta de mantenimiento."
+  },
+  {
+    "question": "¿Cómo se implementa el control 7.13?",
+    "ground_truth": "El control 7.13 (Mantenimiento de equipos) se implementa de la siguiente manera: El mantenimiento debe incluir: seguir frecuencias y especificaciones del proveedor, implementar un programa de mantenimiento, usar solo personal de mantenimiento autorizado, mantener registros de fallas y mantenimiento, supervisar al personal externo de mantenimiento, y controlar el acceso para mantenimiento remoto."
+  },
+  {
+    "question": "¿Qué es el control 7.14 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 7.14, 'Eliminación segura o reutilización de equipos', pertenece al dominio de Controles Físicos y es de tipo Preventivo. Los elementos del equipo que contengan medios de almacenamiento deben verificarse para garantizar que todos los datos confidenciales y el software con licencia se hayan eliminado o sobrescrito de forma segura antes de su eliminación o reutilización."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 7.14?",
+    "ground_truth": "El objetivo del control 7.14 (Eliminación segura o reutilización de equipos) es: Evitar la fuga de información de los equipos que se desecharán o reutilizarán."
+  },
+  {
+    "question": "¿Cómo se implementa el control 7.14?",
+    "ground_truth": "El control 7.14 (Eliminación segura o reutilización de equipos) se implementa de la siguiente manera: Los medios de almacenamiento con información confidencial deben destruirse físicamente o la información debe destruirse usando técnicas que hagan la información irrecuperable. Las etiquetas que identifiquen a la organización o clasificación deben eliminarse. El cifrado de disco completo reduce el riesgo al desechar equipos."
+  },
+  {
+    "question": "¿Qué es el control 8.1 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.1, 'Dispositivos de punto final de usuario', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. La información almacenada, procesada o accesible a través de los dispositivos finales de los usuarios debe protegerse."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.1?",
+    "ground_truth": "El objetivo del control 8.1 (Dispositivos de punto final de usuario) es: Proteger la información contra los riesgos introducidos por el uso de dispositivos de punto final de usuario."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.1?",
+    "ground_truth": "El control 8.1 (Dispositivos de punto final de usuario) se implementa de la siguiente manera: La política de dispositivos de punto final debe abordar: tipo de información y nivel de clasificación que pueden manejar, registro de dispositivos, protección física, restricción de instalación de software, requisitos de versiones y actualizaciones, reglas de conexión a redes externas, controles de acceso, cifrado, protección contra malware, y borrado remoto."
+  },
+  {
+    "question": "¿Qué es el control 8.2 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.2, 'Derechos de acceso privilegiado', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. La asignación y el uso de derechos de acceso privilegiado deben restringirse y administrarse."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.2?",
+    "ground_truth": "El objetivo del control 8.2 (Derechos de acceso privilegiado) es: Garantizar que solo los usuarios autorizados, los componentes y servicios de software reciban derechos de acceso privilegiados."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.2?",
+    "ground_truth": "El control 8.2 (Derechos de acceso privilegiado) se implementa de la siguiente manera: Se debe: identificar usuarios que necesitan acceso privilegiado, asignar derechos según necesidad de conocer y mínimo privilegio, mantener un proceso de autorización y registro de todos los privilegios, revisar periódicamente a los usuarios con acceso privilegiado, no usar identidades administrador para tareas cotidianas, y registrar todos los accesos privilegiados."
+  },
+  {
+    "question": "¿Qué es el control 8.3 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.3, 'Restricción de acceso a la información', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. El acceso a la información y otros activos asociados debe estar restringido de acuerdo con la política específica del tema establecida sobre control de acceso."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.3?",
+    "ground_truth": "El objetivo del control 8.3 (Restricción de acceso a la información) es: Garantizar solo el acceso autorizado y evitar el acceso no autorizado a la información y otros activos asociados."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.3?",
+    "ground_truth": "El control 8.3 (Restricción de acceso a la información) se implementa de la siguiente manera: La restricción de acceso debe: no permitir acceso de usuarios anónimos a información sensible, proporcionar mecanismos de configuración para controlar el acceso, controlar qué datos puede acceder un usuario, controlar qué identidades tienen qué nivel de acceso, y usar controles físicos o lógicos para el aislamiento de aplicaciones sensibles."
+  },
+  {
+    "question": "¿Qué es el control 8.4 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.4, 'Acceso al código fuente', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. El acceso de lectura y escritura al código fuente, las herramientas de desarrollo y las bibliotecas de software debe administrarse adecuadamente."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.4?",
+    "ground_truth": "El objetivo del control 8.4 (Acceso al código fuente) es: Evitar la introducción de funciones no autorizadas, evitar cambios no intencionales o maliciosos y mantener la confidencialidad de la propiedad intelectual valiosa."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.4?",
+    "ground_truth": "El control 8.4 (Acceso al código fuente) se implementa de la siguiente manera: El acceso al código fuente debe: controlarse a través de un sistema de gestión de código fuente, asignar acceso de lectura y escritura según roles, no dar a los desarrolladores acceso directo al repositorio sino a través de herramientas controladas, mantener las listas de programas en un entorno seguro, y mantener un registro de auditoría de todos los accesos y cambios."
+  },
+  {
+    "question": "¿Qué es el control 8.5 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.5, 'Autenticación segura', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. Las tecnologías y los procedimientos de autenticación segura deben implementarse en función de las restricciones de acceso a la información y la política específica del tema sobre el control de acceso."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.5?",
+    "ground_truth": "El objetivo del control 8.5 (Autenticación segura) es: Garantizar que un usuario o una entidad se autentica de forma segura cuando se otorga acceso a sistemas, aplicaciones y servicios."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.5?",
+    "ground_truth": "El control 8.5 (Autenticación segura) se implementa de la siguiente manera: Se debe elegir una técnica de autenticación adecuada para la clasificación de la información. Para sistemas críticos, se debe usar autenticación multifactor. Los procedimientos de inicio de sesión deben: no mostrar información confidencial hasta que el proceso se complete, no proporcionar mensajes de ayuda que asistan a usuarios no autorizados, y proteger contra ataques de fuerza bruta."
+  },
+  {
+    "question": "¿Qué es el control 8.6 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.6, 'Gestión de la capacidad', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. El uso de los recursos debe monitorearse y ajustarse de acuerdo con los requisitos de capacidad actuales y esperados."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.6?",
+    "ground_truth": "El objetivo del control 8.6 (Gestión de la capacidad) es: Asegurar la capacidad requerida de las instalaciones de procesamiento de información, recursos humanos, oficinas y otras instalaciones."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.6?",
+    "ground_truth": "El control 8.6 (Gestión de la capacidad) se implementa de la siguiente manera: Los requisitos de capacidad deben identificarse, el sistema debe ajustarse y supervisarse para garantizar disponibilidad y eficiencia, se deben realizar pruebas de estrés, y las proyecciones futuras deben considerar nuevos requisitos del negocio y tendencias. Se puede lograr aumentando capacidad o reduciendo la demanda."
+  },
+  {
+    "question": "¿Qué es el control 8.7 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.7, 'Protección contra malware', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. La protección contra el malware debe implementarse y respaldarse mediante la conciencia adecuada del usuario."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.7?",
+    "ground_truth": "El objetivo del control 8.7 (Protección contra malware) es: Garantizar que la información y otros activos asociados estén protegidos contra malware."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.7?",
+    "ground_truth": "El control 8.7 (Protección contra malware) se implementa de la siguiente manera: La protección debe basarse en: software de detección y reparación de malware, conciencia de seguridad, controles de acceso adecuados y gestión de cambios. Se deben implementar reglas para prevenir software no autorizado, herramientas para bloquear sitios maliciosos, reducir vulnerabilidades explotables, y realizar escaneos periódicos y actualizaciones regulares de definiciones."
+  },
+  {
+    "question": "¿Qué es el control 8.8 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.8, 'Gestión de vulnerabilidades técnicas', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. Debería obtenerse información sobre las vulnerabilidades técnicas de los sistemas de información en uso, debería evaluarse la exposición de la organización a tales vulnerabilidades y deberían tomarse las medidas apropiadas."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.8?",
+    "ground_truth": "El objetivo del control 8.8 (Gestión de vulnerabilidades técnicas) es: Prevenir la explotación de vulnerabilidades técnicas."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.8?",
+    "ground_truth": "El control 8.8 (Gestión de vulnerabilidades técnicas) se implementa de la siguiente manera: Se debe: mantener un inventario de activos como requisito previo, usar herramientas de escaneo de vulnerabilidades, realizar pruebas de penetración periódicas, evaluar vulnerabilidades identificadas, implementar un proceso de gestión de actualizaciones de software, y establecer un cronograma para reaccionar a notificaciones de vulnerabilidades."
+  },
+  {
+    "question": "¿Qué es el control 8.9 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.9, 'Gestión de la configuración', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. Las configuraciones, incluidas las configuraciones de seguridad, de hardware, software, servicios y redes deben establecerse, documentarse, implementarse, monitorearse y revisarse."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.9?",
+    "ground_truth": "El objetivo del control 8.9 (Gestión de la configuración) es: Garantizar que el hardware, el software, los servicios y las redes funcionen correctamente con la configuración de seguridad requerida, y que la configuración no se altere por cambios no autorizados o incorrectos."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.9?",
+    "ground_truth": "El control 8.9 (Gestión de la configuración) se implementa de la siguiente manera: Se deben definir plantillas estándar para la configuración segura de hardware, software, servicios y redes. Las configuraciones deben registrarse y los cambios seguir el proceso de gestión de cambios. Las configuraciones deben monitorearse continuamente comparándolas con las plantillas objetivo."
+  },
+  {
+    "question": "¿Qué es el control 8.10 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.10, 'Eliminación de información', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. La información almacenada en sistemas de información, dispositivos o en cualquier otro medio de almacenamiento debe ser eliminada cuando ya no sea necesaria."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.10?",
+    "ground_truth": "El objetivo del control 8.10 (Eliminación de información) es: Evitar la exposición innecesaria de información confidencial y cumplir con los requisitos legales, estatutarios, reglamentarios y contractuales para la eliminación de información."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.10?",
+    "ground_truth": "El control 8.10 (Eliminación de información) se implementa de la siguiente manera: Se debe seleccionar un método de eliminación (sobrescritura electrónica o borrado criptográfico) de acuerdo con los requisitos comerciales y legales, registrar los resultados, obtener evidencia de eliminación de terceros cuando corresponda, y configurar sistemas para destruir información de forma segura automáticamente cuando ya no se necesite."
+  },
+  {
+    "question": "¿Qué es el control 8.11 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.11, 'Enmascaramiento de datos', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. El enmascaramiento de datos se debe utilizar de acuerdo con la política específica del tema de la organización sobre el control de acceso y otras políticas relacionadas con el tema específico, y los requisitos comerciales, teniendo en cuenta la legislación aplicable."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.11?",
+    "ground_truth": "El objetivo del control 8.11 (Enmascaramiento de datos) es: Limitar la exposición de datos confidenciales, incluida la PII, y para cumplir con los requisitos legales, estatutarios, reglamentarios y contractuales."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.11?",
+    "ground_truth": "El control 8.11 (Enmascaramiento de datos) se implementa de la siguiente manera: Las técnicas de enmascaramiento incluyen: seudonimización, anonimización, cifrado, anulación o eliminación de caracteres, sustitución y reemplazo de valores con su hash. Se debe verificar que los datos hayan sido adecuadamente anonimizados, considerando que la persona puede ser identificada indirectamente por combinación de datos."
+  },
+  {
+    "question": "¿Qué es el control 8.12 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.12, 'Prevención de fuga de datos', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. Las medidas de prevención de fuga de datos deben aplicarse a los sistemas, redes y cualquier otro dispositivo que procese, almacene o transmita información confidencial."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.12?",
+    "ground_truth": "El objetivo del control 8.12 (Prevención de fuga de datos) es: Detectar y prevenir la divulgación y extracción no autorizada de información por parte de individuos o sistemas."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.12?",
+    "ground_truth": "El control 8.12 (Prevención de fuga de datos) se implementa de la siguiente manera: Se debe: identificar y clasificar la información a proteger contra fugas, monitorear canales de fuga de datos (correo, transferencias de archivos, dispositivos móviles), actuar para evitar filtraciones. Las herramientas DLP deben identificar datos sensibles en riesgo, detectar su divulgación no autorizada y bloquear acciones que expongan información confidencial."
+  },
+  {
+    "question": "¿Qué es el control 8.13 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.13, 'Copia de seguridad de la información', pertenece al dominio de Controles Tecnológicos y es de tipo Correctivo. Las copias de respaldo de la información, el software y los sistemas deben mantenerse y probarse regularmente de acuerdo con la política de respaldo específica del tema acordada."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.13?",
+    "ground_truth": "El objetivo del control 8.13 (Copia de seguridad de la información) es: Permitir la recuperación de la pérdida de datos o sistemas."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.13?",
+    "ground_truth": "El control 8.13 (Copia de seguridad de la información) se implementa de la siguiente manera: La política de respaldo debe considerar: producción de registros precisos de copias de seguridad, reflejo de los requisitos de RPO del negocio, almacenamiento en ubicación remota segura, protección física y ambiental adecuada, pruebas regulares de recuperación, cifrado de copias de seguridad, y verificación de que no se pierdan datos inadvertidamente."
+  },
+  {
+    "question": "¿Qué es el control 8.14 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.14, 'Redundancia de las instalaciones de procesamiento de información', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. Las instalaciones de procesamiento de información deben implementarse con suficiente redundancia para cumplir con los requisitos de disponibilidad."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.14?",
+    "ground_truth": "El objetivo del control 8.14 (Redundancia de las instalaciones de procesamiento de información) es: Asegurar el funcionamiento continuo de las instalaciones de procesamiento de información."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.14?",
+    "ground_truth": "El control 8.14 (Redundancia de las instalaciones de procesamiento de información) se implementa de la siguiente manera: La redundancia puede introducirse duplicando instalaciones de procesamiento. Se deben considerar: múltiples proveedores de redes e instalaciones críticas, redes redundantes, centros de datos separados geográficamente, fuentes de alimentación redundantes, instancias paralelas de componentes de software con equilibrio de carga, y componentes duplicados en sistemas."
+  },
+  {
+    "question": "¿Qué es el control 8.15 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.15, 'Registro', pertenece al dominio de Controles Tecnológicos y es de tipo Detective. Se deben producir, almacenar, proteger y analizar registros que registren actividades, excepciones, fallas y otros eventos relevantes."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.15?",
+    "ground_truth": "El objetivo del control 8.15 (Registro) es: Registrar eventos, generar evidencia, garantizar la integridad de la información de registro, prevenir el acceso no autorizado, identificar eventos de seguridad de la información y respaldar investigaciones."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.15?",
+    "ground_truth": "El control 8.15 (Registro) se implementa de la siguiente manera: Los registros deben incluir: identificaciones de usuario, actividades del sistema, fechas, horas y detalles de eventos, identidad del dispositivo y ubicación, direcciones de red y protocolos. Los usuarios privilegiados no deben poder eliminar o desactivar registros de sus propias actividades. Se debe considerar el análisis de registros con herramientas SIEM."
+  },
+  {
+    "question": "¿Qué es el control 8.16 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.16, 'Actividades de seguimiento', pertenece al dominio de Controles Tecnológicos y es de tipo Detective. Las redes, los sistemas y las aplicaciones deben monitorearse para detectar comportamientos anómalos y deben tomarse las medidas apropiadas para evaluar posibles incidentes de seguridad de la información."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.16?",
+    "ground_truth": "El objetivo del control 8.16 (Actividades de seguimiento) es: Detectar comportamientos anómalos y posibles incidentes de seguridad de la información."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.16?",
+    "ground_truth": "El control 8.16 (Actividades de seguimiento) se implementa de la siguiente manera: El monitoreo debe cubrir: tráfico de red entrante y saliente, acceso a sistemas y servidores, archivos de configuración críticos, registros de herramientas de seguridad, y registros de eventos de actividad del sistema. Se debe establecer una línea de base de comportamiento normal y monitorear contra ella para detectar anomalías."
+  },
+  {
+    "question": "¿Qué es el control 8.17 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.17, 'Sincronización del reloj', pertenece al dominio de Controles Tecnológicos y es de tipo Detective. Los relojes de los sistemas de procesamiento de información utilizados por la organización deben sincronizarse con las fuentes de tiempo aprobadas."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.17?",
+    "ground_truth": "El objetivo del control 8.17 (Sincronización del reloj) es: Permitir la correlación y el análisis de eventos relacionados con la seguridad y otros datos registrados, y respaldar las investigaciones sobre incidentes de seguridad de la información."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.17?",
+    "ground_truth": "El control 8.17 (Sincronización del reloj) se implementa de la siguiente manera: Se debe usar un reloj vinculado a transmisión de tiempo por radio o GPS como referencia. Se deben usar protocolos como NTP o PTP para mantener todos los sistemas sincronizados. La organización puede usar dos fuentes externas simultáneas para mejorar la confiabilidad."
+  },
+  {
+    "question": "¿Qué es el control 8.18 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.18, 'Uso de programas de utilidad privilegiados', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. El uso de programas de utilidad que puedan anular los controles del sistema y de las aplicaciones debe restringirse y controlarse estrictamente."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.18?",
+    "ground_truth": "El objetivo del control 8.18 (Uso de programas de utilidad privilegiados) es: Garantizar que el uso de programas de utilidad no dañe el sistema y los controles de aplicaciones para la seguridad de la información."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.18?",
+    "ground_truth": "El control 8.18 (Uso de programas de utilidad privilegiados) se implementa de la siguiente manera: Se debe: limitar el uso al mínimo de usuarios autorizados, usar procedimientos de identificación y autenticación para programas de utilidad, definir y documentar niveles de autorización, no hacer disponibles los programas de utilidad a usuarios con acceso a aplicaciones, eliminar o deshabilitar programas de utilidad innecesarios, y registrar todos los usos."
+  },
+  {
+    "question": "¿Qué es el control 8.19 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.19, 'Instalación de software en sistemas operativos', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. Deben implementarse procedimientos y medidas para gestionar de forma segura la instalación de software en los sistemas operativos."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.19?",
+    "ground_truth": "El objetivo del control 8.19 (Instalación de software en sistemas operativos) es: Garantizar la integridad de los sistemas operativos y evitar la explotación de vulnerabilidades técnicas."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.19?",
+    "ground_truth": "El control 8.19 (Instalación de software en sistemas operativos) se implementa de la siguiente manera: Se debe: realizar actualizaciones solo por administradores capacitados con autorización adecuada, instalar solo código ejecutable aprobado sin código de desarrollo en sistemas operativos, instalar y actualizar solo después de pruebas exitosas, usar un sistema de control de configuración para todo el software operativo, y definir una estrategia de reversión antes de implementar cambios."
+  },
+  {
+    "question": "¿Qué es el control 8.20 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.20, 'Seguridad de redes', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. Las redes y los dispositivos de red deben protegerse, administrarse y controlarse para proteger la información en los sistemas y aplicaciones."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.20?",
+    "ground_truth": "El objetivo del control 8.20 (Seguridad de redes) es: Proteger la información en las redes y sus instalaciones de procesamiento de información de apoyo del compromiso a través de la red."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.20?",
+    "ground_truth": "El control 8.20 (Seguridad de redes) se implementa de la siguiente manera: Se deben implementar controles para: proteger redes de acceso no autorizado, mantener documentación actualizada de diagramas de red, separar la responsabilidad operativa de redes de las operaciones de TIC, establecer controles para salvaguardar la confidencialidad e integridad de datos en redes públicas, y deshabilitar protocolos de red vulnerables."
+  },
+  {
+    "question": "¿Qué es el control 8.21 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.21, 'Seguridad de los servicios de red', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. Los mecanismos de seguridad, los niveles de servicio y los requisitos de servicio de los servicios de red deben identificarse, implementarse y monitorearse."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.21?",
+    "ground_truth": "El objetivo del control 8.21 (Seguridad de los servicios de red) es: Garantizar la seguridad en el uso de los servicios de red."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.21?",
+    "ground_truth": "El control 8.21 (Seguridad de los servicios de red) se implementa de la siguiente manera: Las medidas de seguridad necesarias para servicios de red deben identificarse e implementarse. Se debe controlar periódicamente la capacidad del proveedor de gestionar los servicios acordados de forma segura. Las reglas de uso de redes y servicios deben cubrir: redes permitidas, requisitos de autenticación, procedimientos de autorización, y monitoreo del uso."
+  },
+  {
+    "question": "¿Qué es el control 8.22 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.22, 'Segregación de redes', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. Los grupos de servicios de información, usuarios y sistemas de información deben estar segregados en las redes de la organización."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.22?",
+    "ground_truth": "El objetivo del control 8.22 (Segregación de redes) es: Dividir la red en límites de seguridad y controlar el tráfico entre ellos en función de las necesidades comerciales."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.22?",
+    "ground_truth": "El control 8.22 (Segregación de redes) se implementa de la siguiente manera: La organización debe dividir redes grandes en dominios separados según niveles de confianza, criticidad y sensibilidad. Los dominios deben separarse de la red pública. El acceso entre dominios debe controlarse mediante puertas de enlace (firewalls, enrutadores de filtrado). Se debe considerar SDN y SD-WAN para segregación lógica."
+  },
+  {
+    "question": "¿Qué es el control 8.23 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.23, 'Filtrado web', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. El acceso a sitios web externos debe gestionarse para reducir la exposición al contenido malicioso."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.23?",
+    "ground_truth": "El objetivo del control 8.23 (Filtrado web) es: Proteger los sistemas de los compromisos causados por el malware y evitar el acceso a recursos web no autorizados."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.23?",
+    "ground_truth": "El control 8.23 (Filtrado web) se implementa de la siguiente manera: La organización debe definir qué tipos de sitios web están bloqueados. Las reglas deben bloquear el acceso a sitios maliciosos, de phishing, con contenido inapropiado y sitios de descarga de malware. Se deben revisar periódicamente las reglas y registrar el acceso a sitios web para monitoreo y análisis."
+  },
+  {
+    "question": "¿Qué es el control 8.24 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.24, 'Uso de criptografía', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. Deben definirse e implementarse reglas para el uso efectivo de la criptografía, incluida la gestión de claves criptográficas."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.24?",
+    "ground_truth": "El objetivo del control 8.24 (Uso de criptografía) es: Asegurar el uso adecuado y eficaz de la criptografía para proteger la confidencialidad, autenticidad o integridad de la información."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.24?",
+    "ground_truth": "El control 8.24 (Uso de criptografía) se implementa de la siguiente manera: Se debe establecer una política sobre el uso de controles criptográficos. La gestión de claves debe cubrir todo el ciclo de vida, incluyendo generación, almacenamiento, distribución, retiro y destrucción de claves. Se deben usar algoritmos y longitudes de clave según estándares aprobados."
+  },
+  {
+    "question": "¿Qué es el control 8.25 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.25, 'Ciclo de vida de desarrollo seguro', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. Deben establecerse e implementarse reglas para el desarrollo seguro de software y sistemas."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.25?",
+    "ground_truth": "El objetivo del control 8.25 (Ciclo de vida de desarrollo seguro) es: Asegurar que la seguridad de la información se diseñe e implemente dentro del ciclo de vida de desarrollo del software."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.25?",
+    "ground_truth": "El control 8.25 (Ciclo de vida de desarrollo seguro) se implementa de la siguiente manera: Las reglas de desarrollo seguro deben cubrir: directrices de programación segura, seguridad en metodologías de desarrollo (agile, waterfall), requisitos de seguridad en todas las fases del SDLC, principios de seguridad por diseño, hitos de seguridad en el proceso de entrega, y gestión segura del entorno de desarrollo."
+  },
+  {
+    "question": "¿Qué es el control 8.26 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.26, 'Requisitos de seguridad de la aplicación', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. Los requisitos de seguridad de la información deben identificarse, especificarse y aprobarse al desarrollar o adquirir aplicaciones."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.26?",
+    "ground_truth": "El objetivo del control 8.26 (Requisitos de seguridad de la aplicación) es: Asegurar que todos los requisitos de seguridad de la información se identifiquen y aborden al desarrollar o adquirir aplicaciones."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.26?",
+    "ground_truth": "El control 8.26 (Requisitos de seguridad de la aplicación) se implementa de la siguiente manera: Los requisitos de seguridad deben incluir: autenticación y control de acceso, validación de entradas y salidas, registros de auditoría, protección contra ataques comunes (inyección SQL, XSS, CSRF), cifrado de datos sensibles en reposo y en tránsito, y gestión segura de sesiones."
+  },
+  {
+    "question": "¿Qué es el control 8.27 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.27, 'Arquitectura del sistema seguro y principios de ingeniería', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. Los principios para diseñar sistemas seguros deben establecerse, documentarse, mantenerse y aplicarse a cualquier actividad de implementación de sistemas de información."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.27?",
+    "ground_truth": "El objetivo del control 8.27 (Arquitectura del sistema seguro y principios de ingeniería) es: Asegurar que los sistemas de información sean diseñados, implementados y operados de forma segura dentro del ciclo de vida de desarrollo."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.27?",
+    "ground_truth": "El control 8.27 (Arquitectura del sistema seguro y principios de ingeniería) se implementa de la siguiente manera: Los principios de ingeniería de seguridad deben cubrir: mínimo privilegio, defensa en profundidad, zero trust, seguridad por diseño, fail secure, separación de responsabilidades, y reducción de la superficie de ataque. Se debe establecer y mantener como estándares de ingeniería de la organización."
+  },
+  {
+    "question": "¿Qué es el control 8.28 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.28, 'Codificación segura', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. Los principios de codificación segura deben aplicarse al desarrollo del software."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.28?",
+    "ground_truth": "El objetivo del control 8.28 (Codificación segura) es: Asegurar que el software se escriba de forma segura y reducir así el número de vulnerabilidades de seguridad de la información potenciales en el software."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.28?",
+    "ground_truth": "El control 8.28 (Codificación segura) se implementa de la siguiente manera: Los principios de codificación segura deben incluir: validación de entradas, codificación de salidas, gestión de errores y excepciones, uso de componentes de software seguros y actualizados, revisión de código con foco en seguridad, y escaneo de código estático (SAST) para identificar vulnerabilidades."
+  },
+  {
+    "question": "¿Qué es el control 8.29 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.29, 'Pruebas de seguridad en desarrollo y aceptación', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. Los procesos de prueba de seguridad deben definirse e implementarse en el ciclo de vida de desarrollo."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.29?",
+    "ground_truth": "El objetivo del control 8.29 (Pruebas de seguridad en desarrollo y aceptación) es: Validar que los requisitos de seguridad de la información se cumplan cuando se implementan las aplicaciones."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.29?",
+    "ground_truth": "El control 8.29 (Pruebas de seguridad en desarrollo y aceptación) se implementa de la siguiente manera: Las pruebas de seguridad deben incluir: pruebas de vulnerabilidades de la aplicación, pruebas de penetración de la aplicación, análisis de código dinámico (DAST), revisiones de configuración de seguridad, y pruebas funcionales de controles de seguridad. Los criterios de aceptación deben incluir requisitos de seguridad mínimos."
+  },
+  {
+    "question": "¿Qué es el control 8.30 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.30, 'Desarrollo subcontratado', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. La organización debe supervisar y monitorear la actividad de desarrollo de software subcontratado."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.30?",
+    "ground_truth": "El objetivo del control 8.30 (Desarrollo subcontratado) es: Asegurar que los requisitos de seguridad de la información de la organización se implementen en el desarrollo de software y sistemas subcontratados."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.30?",
+    "ground_truth": "El control 8.30 (Desarrollo subcontratado) se implementa de la siguiente manera: Los acuerdos de subcontratación deben abordar: requisitos de seguridad de la información que el proveedor debe cumplir, requisitos de licencia, propiedad del código y derechos de propiedad intelectual, revisión de código por terceros, pruebas de aceptación, y requisitos para la divulgación y corrección de vulnerabilidades."
+  },
+  {
+    "question": "¿Qué es el control 8.31 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.31, 'Separación de los entornos de desarrollo, prueba y producción', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. Los entornos de desarrollo, prueba y producción deben separarse y asegurarse."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.31?",
+    "ground_truth": "El objetivo del control 8.31 (Separación de los entornos de desarrollo, prueba y producción) es: Proteger el entorno de producción y los datos de compromisos a causa de las actividades de desarrollo y pruebas."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.31?",
+    "ground_truth": "El control 8.31 (Separación de los entornos de desarrollo, prueba y producción) se implementa de la siguiente manera: Se debe definir y documentar claramente las reglas de migración de software del entorno de desarrollo al de producción. Los entornos de desarrollo y prueba no deben utilizar datos de producción reales. El acceso a los entornos de producción debe estar estrictamente controlado y diferente de los otros entornos."
+  },
+  {
+    "question": "¿Qué es el control 8.32 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.32, 'Gestión de cambios', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. Los cambios en las instalaciones de procesamiento de información y los sistemas de información deben estar sujetos a procedimientos de gestión de cambios."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.32?",
+    "ground_truth": "El objetivo del control 8.32 (Gestión de cambios) es: Preservar la seguridad de la información y los sistemas cuando se realizan cambios."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.32?",
+    "ground_truth": "El control 8.32 (Gestión de cambios) se implementa de la siguiente manera: Los procedimientos de gestión de cambios deben incluir: planificación y prueba de cambios, evaluación de impacto de seguridad, aprobación formal, comunicación a partes interesadas, procedimientos de reversión, y registro de todos los cambios. Los cambios de emergencia deben seguir un proceso acelerado documentado."
+  },
+  {
+    "question": "¿Qué es el control 8.33 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.33, 'Información de prueba', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. Los datos de prueba deben seleccionarse, protegerse y gestionarse adecuadamente."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.33?",
+    "ground_truth": "El objetivo del control 8.33 (Información de prueba) es: Asegurar la relevancia de las pruebas y la protección de la información de producción operacional utilizada para las pruebas."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.33?",
+    "ground_truth": "El control 8.33 (Información de prueba) se implementa de la siguiente manera: La información de prueba operacional sensible o confidencial no debe copiarse en entornos de prueba. Si se copian datos de producción, deben anonimizarse o seudonimizarse. Se debe obtener aprobación antes de usar datos de producción para pruebas, y dichos datos deben eliminarse inmediatamente después de las pruebas."
+  },
+  {
+    "question": "¿Qué es el control 8.34 de la norma ISO/IEC 27002?",
+    "ground_truth": "El control 8.34, 'Protección de los sistemas de información durante las pruebas de auditoría', pertenece al dominio de Controles Tecnológicos y es de tipo Preventivo. Las pruebas de auditoría y otras actividades de aseguramiento que involucren la evaluación de los sistemas operativos deben planificarse y acordarse entre el auditor y la gerencia adecuada."
+  },
+  {
+    "question": "¿Cuál es el objetivo del control 8.34?",
+    "ground_truth": "El objetivo del control 8.34 (Protección de los sistemas de información durante las pruebas de auditoría) es: Minimizar el impacto de las actividades de auditoría y otras actividades de aseguramiento en los sistemas operativos y los procesos de negocio."
+  },
+  {
+    "question": "¿Cómo se implementa el control 8.34?",
+    "ground_truth": "El control 8.34 (Protección de los sistemas de información durante las pruebas de auditoría) se implementa de la siguiente manera: Las pruebas de auditoría deben: acordarse con la gerencia apropiada, planificarse para minimizar la interrupción de los procesos de negocio, controlarse el alcance del acceso, monitorear el acceso de auditores a datos y sistemas, asegurar que los datos y herramientas de auditoría se eliminen después de la auditoría, y limitar las pruebas a herramientas de solo lectura cuando sea posible."
+  }
+]
