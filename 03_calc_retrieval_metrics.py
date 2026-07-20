@@ -1,0 +1,60 @@
+"""
+03_calc_retrieval_metrics.py (Experimento B)
+------------------------------
+Calcula Recall@k y MRR@k comparando el expected_control_id
+(reconstruido desde ground_truth en el paso 02) contra los
+retrieved_control_ids obtenidos por el pipeline real.
+
+Misma lógica exacta que el script original; solo cambian las rutas
+de entrada/salida para no pisar los resultados del experimento original
+(preguntas con número de control explícito).
+"""
+
+import json
+
+INPUT_PATH = "eval_results_full_expB.json"
+
+with open(INPUT_PATH, "r", encoding="utf-8") as f:
+    results = json.load(f)
+
+recalls = []
+reciprocal_ranks = []
+sin_expected = 0
+
+for item in results:
+    expected = item.get("expected_control_id")
+    retrieved = item.get("retrieved_control_ids", [])
+
+    if not expected:
+        sin_expected += 1
+        continue
+
+    # Recall@k: 1 si el control esperado está en los recuperados, 0 si no
+    hit = expected in retrieved
+    recalls.append(1 if hit else 0)
+
+    # MRR@k: 1 / posición (1-indexed) del primer acierto, 0 si no aparece
+    if hit:
+        rank = retrieved.index(expected) + 1
+        reciprocal_ranks.append(1 / rank)
+    else:
+        reciprocal_ranks.append(0)
+
+recall_at_k = sum(recalls) / len(recalls) if recalls else 0
+mrr_at_k = sum(reciprocal_ranks) / len(reciprocal_ranks) if reciprocal_ranks else 0
+
+print(f"Preguntas evaluadas: {len(recalls)}")
+print(f"Preguntas sin expected_control_id (excluidas): {sin_expected}")
+print(f"\nRecall@k: {recall_at_k:.4f}")
+print(f"MRR@k:    {mrr_at_k:.4f}")
+
+# Guarda un resumen
+with open("retrieval_metrics_summary_expB.json", "w", encoding="utf-8") as f:
+    json.dump({
+        "recall_at_k": recall_at_k,
+        "mrr_at_k": mrr_at_k,
+        "n_evaluated": len(recalls),
+        "n_excluded_no_expected_id": sin_expected,
+    }, f, indent=2, ensure_ascii=False)
+
+print("\nResumen guardado en retrieval_metrics_summary_expB.json")
